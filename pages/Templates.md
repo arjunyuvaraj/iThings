@@ -2,16 +2,13 @@
 template:: Daily
 template-including-parent:: false
 	- ## 🕰️ Reminders
-	  collapsed:: true
 		- ### Tasks For Today
-		  query-table:: false
-		  collapsed:: true
+		  query-table:: true
 		  {{query (task todo doing now later wait)}}
 		-
 		- ### Important Events
 		  query-table:: true
 		  query-properties:: [:start-time :end-time :event-name :date]
-		  collapsed:: true
 		  {{query (and [[Important Events]] (not (page [[Important Events]])) (not (page [[templates]])))}}
 		-
 	- ## 📋 Todo List

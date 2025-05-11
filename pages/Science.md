@@ -7,7 +7,6 @@ type:: Hub
   id:: 681feef1-97bc-4718-a6f6-364ae127e40f
   Welcome to my hub for Science. This page includes EVERYTHING that is linked as science. All three sciences are included here: Biology, Chemistry, and Physics. Under each category are the names of various courses and under THAT you can find different lessons. Hope this helps!
 - # 🍎 Physics
-  collapsed:: true
   This is the section for everything physics related it primarily focuses on only notes taken in class an at home. However, I hope to include a variety of different articles and resources that may prove to be useful in the future!
 	- ## Notes
 	  collapsed:: true

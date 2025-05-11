@@ -425,4 +425,6 @@
  :journal? false
  :orphan-pages? true}
  :ui/show-brackets? false
- :journal/page-title-format "EEEE, MM/dd/yyyy"}
+ :journal/page-title-format "MMM do, yyyy"
+ :graph/forcesettings {:link-dist 180
+ :charge-strength 1000}}
