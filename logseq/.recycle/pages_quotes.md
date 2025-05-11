@@ -1,0 +1,100 @@
+- "The best way to predict the future is to invent it." – Alan Kay #quote
+- "Do not wait for the perfect moment. Take the moment and make it perfect." #quote
+- "Simplicity is the ultimate sophistication." – Leonardo da Vinci #quote
+- "Success is not final, failure is not fatal: It is the courage to continue that counts." – Winston Churchill #quote
+- "Dream big. Start small. Act now." – Robin Sharma #quote
+- "Believe you can and you're halfway there." – Theodore Roosevelt #quote
+- "Discipline is choosing between what you want now and what you want most." – Abraham Lincoln #quote
+- "A journey of a thousand miles begins with a single step." – Lao Tzu #quote
+- "You don’t have to be great to start, but you have to start to be great." – Zig Ziglar #quote
+- "Action is the foundational key to all success." – Pablo Picasso #quote
+- "Don’t count the days, make the days count." – Muhammad Ali #quote
+- "Be so good they can’t ignore you." – Steve Martin #quote
+- "Creativity is intelligence having fun." – Albert Einstein #quote
+- "Stay hungry. Stay foolish." – Steve Jobs #quote
+- "Do something today that your future self will thank you for." #quote
+- "You miss 100% of the shots you don’t take." – Wayne Gretzky #quote
+- "Make it happen. Shock everyone." #quote
+- "What you do today can improve all your tomorrows." – Ralph Marston #quote
+- "Focus on being productive instead of busy." – Tim Ferriss #quote
+- "Success usually comes to those who are too busy to be looking for it." – Henry David Thoreau #quote
+- "Happiness is not something ready made. It comes from your own actions." – Dalai Lama #quote
+- "Don’t watch the clock; do what it does. Keep going." – Sam Levenson #quote
+- "The harder you work for something, the greater you’ll feel when you achieve it." #quote
+- "Turn your wounds into wisdom." – Oprah Winfrey #quote
+- "It always seems impossible until it's done." – Nelson Mandela #quote
+- "Live as if you were to die tomorrow. Learn as if you were to live forever." – Mahatma Gandhi #quote
+- "You are never too old to set another goal or to dream a new dream." – C.S. Lewis #quote
+- "Don’t let yesterday take up too much of today." – Will Rogers #quote
+- "Success is the sum of small efforts repeated day in and day out." – Robert Collier #quote
+- "Doubt kills more dreams than failure ever will." – Suzy Kassem #quote
+- "If you get tired, learn to rest, not to quit." – Banksy #quote
+- "Your limitation—it’s only your imagination." #quote
+- "Push yourself, because no one else is going to do it for you." #quote
+- "Sometimes later becomes never. Do it now." #quote
+- "Great things never come from comfort zones." #quote
+- "Success doesn’t just find you. You have to go out and get it." #quote
+- "The harder you work, the luckier you get." – Gary Player #quote
+- "Wake up with determination. Go to bed with satisfaction." #quote
+- "Do what you can with all you have, wherever you are." – Theodore Roosevelt #quote
+- "Little by little, a little becomes a lot." – Tanzanian Proverb #quote
+- "Quality means doing it right when no one is looking." – Henry Ford #quote
+- "Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart." – Roy T. Bennett #quote
+- "If not now, when? If not you, who?" – Hillel the Elder #quote
+- "The secret of getting ahead is getting started." – Mark Twain #quote
+- "Start where you are. Use what you have. Do what you can." – Arthur Ashe #quote
+- "Success is nothing more than a few simple disciplines, practiced every day." – Jim Rohn #quote
+- "Don’t limit your challenges. Challenge your limits." #quote
+- "Small steps in the right direction can turn out to be the biggest step of your life." #quote
+- "Strive for progress, not perfection." #quote
+- "The expert in anything was once a beginner." #quote
+- "Energy and persistence conquer all things." – Benjamin Franklin #quote
+- "Do not be afraid to give up the good to go for the great." – John D. Rockefeller #quote
+- "Success is getting what you want. Happiness is wanting what you get." – Dale Carnegie #quote
+- "Don’t stop until you’re proud." #quote
+- "Work hard in silence, let your success be your noise." – Frank Ocean #quote
+- "Keep going. Everything you need will come to you at the perfect time." #quote
+- "Only those who dare to fail greatly can ever achieve greatly." – Robert F. Kennedy #quote
+- "Your life does not get better by chance, it gets better by change." – Jim Rohn #quote
+- "Be yourself; everyone else is already taken." – Oscar Wilde #quote
+- "Go the extra mile. It’s never crowded." – Dr. Wayne D. Dyer #quote
+- "Act as if what you do makes a difference. It does." – William James #quote
+- "Don’t let perfection be the enemy of progress." – Voltaire #quote
+- "If you want something you’ve never had, you must be willing to do something you’ve never done." – Thomas Jefferson #quote
+- "You are capable of amazing things." #quote
+- "Work until your idols become your rivals." #quote
+- "Stay positive, work hard, make it happen." #quote
+- "One day or day one. You decide." #quote
+- "There is no elevator to success. You have to take the stairs." #quote
+- "You didn’t come this far to only come this far." #quote
+- "Stop doubting yourself. Work hard and make it happen." #quote
+- "Every accomplishment starts with the decision to try." – John F. Kennedy #quote
+- "Don’t be afraid to fail. Be afraid not to try." – Michael Jordan #quote
+- "Be the change that you wish to see in the world." – Mahatma Gandhi #quote
+- "A goal without a plan is just a wish." – Antoine de Saint-Exupéry #quote
+- "If opportunity doesn’t knock, build a door." – Milton Berle #quote
+- "Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway." – Earl Nightingale #quote
+- "There is no substitute for hard work." – Thomas Edison #quote
+- "Success isn’t about how your life looks to others. It’s about how it feels to you." – Michelle Obama #quote
+- "Learning never exhausts the mind." – Leonardo da Vinci #quote
+- "It’s not whether you get knocked down. It’s whether you get up." – Vince Lombardi #quote
+- "Be fearless in the pursuit of what sets your soul on fire." #quote
+- "Success is a state of mind. If you want success, start thinking of yourself as a success." – Joyce Brothers #quote
+- "Challenges are what make life interesting, and overcoming them is what makes life meaningful." – Joshua J. Marine #quote
+- "Done is better than perfect." – Sheryl Sandberg #quote
+- "Be brave enough to be bad at something new." #quote
+- "Focus on your goal. Don’t look in any direction but ahead." #quote
+- "Work smart, not just hard." #quote
+- "Success is not in what you have, but who you are." – Bo Bennett #quote
+- "Don’t wish it were easier. Wish you were better." – Jim Rohn #quote
+- "Don’t be afraid to give up the good to go for the great." – Kenny Rogers #quote
+- "Never confuse a single defeat with a final defeat." – F. Scott Fitzgerald #quote
+- "Success is not measured by money or power, but by discipline and inner peace." – Mike Ditka #quote
+- "Start small. Think big. Scale fast." #quote
+- "You don’t rise to the level of your goals. You fall to the level of your systems." – James Clear #quote
+- "If you want to fly, you have to give up the things that weigh you down." – Toni Morrison #quote
+- "Learning is a treasure that will follow its owner everywhere." – Chinese Proverb #quote
+- "You can either experience the pain of discipline or the pain of regret. The choice is yours." – Craig Groeschel #quote
+- "Every great achievement was once considered impossible." #quote
+- "Success is less about luck and more about consistency." #quote
+- "You are your only limit." #quote
