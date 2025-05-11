@@ -1,5 +1,5 @@
 subject:: Science, Physics, Motion, Forces
-icon:: 🔬
+icon:: 🍎
 link:: https://www.khanacademy.org/science/highschool-physics/x6679aa2c65c01e53:motion-and-forces
 parent:: [[Khan Academy: High School Physics]] 
 type:: Notes

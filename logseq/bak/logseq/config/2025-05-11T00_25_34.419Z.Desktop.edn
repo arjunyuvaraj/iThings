@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -422,4 +422,7 @@
  :file/name-format :triple-lowbar
  :graph/settings {:excluded-pages? true
  :builtin-pages? false
- :journal? true}}
+ :journal? false
+ :orphan-pages? true}
+ :ui/show-brackets? false
+ :journal/page-title-format "EEEE, MM/dd/yyyy"}

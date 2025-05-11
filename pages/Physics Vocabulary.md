@@ -1,1 +1,2 @@
 subject:: Science, Physics
+icon:: 🍎

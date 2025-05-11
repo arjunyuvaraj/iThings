@@ -1,5 +1,5 @@
 subject:: Science, Physics, Static Electricity
-icon:: 🔬
+icon:: 🍎
 link:: https://www.khanacademy.org/science/highschool-physics/x6679aa2c65c01e53:electrostatics
 parent:: [[Khan Academy: High School Physics]] 
 type:: Notes
