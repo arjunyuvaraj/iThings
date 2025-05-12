@@ -14,6 +14,9 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 			- Location - Potential Energy
 		- Energy is **always the same, the total energy never changes**
 	- **Kinetic Energy** #[[Physics Vocabulary]]
+		- Energy due to **movement**
+		- Formula:
+		  $$K=\frac12mr^2$$
 		-
 -
 -
