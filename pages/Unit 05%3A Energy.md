@@ -26,5 +26,5 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 - ## Conservation of energy
 	- **Conservation of Energy** #[[Physics Vocabulary]]
 		- Energy is neither created nor destroyed
--
+		-
 -
