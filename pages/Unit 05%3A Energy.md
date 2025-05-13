@@ -17,8 +17,7 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 		- Energy due to **movement**
 		- Formula:
 		  $$K=\frac12mr^2$$
+	- **Potential Energy** #[[Physics Vocabulary]]
 		-
-- ![woman in red jersey shirt and white shorts holding baseball bat](https://images.unsplash.com/photo-1624375664562-fff61869fe8f?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
--
 -
 -
