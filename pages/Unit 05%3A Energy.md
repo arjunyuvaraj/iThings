@@ -22,6 +22,7 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 		- Potential Energy is dependent on **two objects**
 		- System of interacting particles
 		- Represented by $U$
+		- Dependent on position
 		-
 -
 -
