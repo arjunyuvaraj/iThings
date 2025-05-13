@@ -18,6 +18,7 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 		- Formula:
 		  $$K=\frac12mr^2$$
 	- **Potential Energy** #[[Physics Vocabulary]]
+		- Potential Energy is dependent on **two objects**
 		-
 -
 -
