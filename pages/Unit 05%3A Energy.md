@@ -24,7 +24,8 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 		- Represented by $U$
 		- Dependent on position
 		- The potential energy at any distance can be calculated as:
-		  $$K_1+K_2=$$
+		  $$K_1+K_2=\frac{kq_1q2}{r}_{}$$
+		-
 - ## Conservation of energy
 	- **Conservation of Energy** #[[Physics Vocabulary]]
 		- Energy is neither created nor destroyed
