@@ -9,6 +9,7 @@ template-including-parent:: false
 		- ### Important Events
 		  query-table:: true
 		  query-properties:: [:start-time :end-time :event-name :date]
+		  collapsed:: true
 		  {{query (and [[Important Events]] (not (page [[Important Events]])) (not (page [[templates]])))}}
 		-
 	- ## 📋 Todo List
