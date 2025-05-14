@@ -22,9 +22,3 @@ template-including-parent:: false
 		- Today was a...
 	- ## 🗒️ Pages
 	- ## 🗓️ Important Events
-		- query-table:: true
-		  query-properties:: [:start-time :end-time :event-name :date]
-		-
-		-
-		-
-		-
