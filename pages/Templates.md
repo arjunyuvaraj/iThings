@@ -5,13 +5,6 @@ template-including-parent:: false
 		- ### Tasks For Today
 		  query-table:: true
 		  {{query (task todo doing now later wait)}}
-		-
-		- ### Important Events
-		  query-table:: true
-		  query-properties:: [:start-time :end-time :event-name :date]
-		  collapsed:: true
-		  {{query (and [[Important Events]] (not (page [[Important Events]])) (not (page [[templates]])))}}
-		-
 	- ## 📋 Todo List
 	  collapsed:: true
 		- :LOGBOOK:
@@ -22,3 +15,4 @@ template-including-parent:: false
 		- Today was a...
 	- ## 🗒️ Pages
 	- ## 🗓️ Important Events
+-
