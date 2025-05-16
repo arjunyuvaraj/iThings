@@ -4,6 +4,7 @@ icon:: 📝
   template:: Daily
   template-including-parent:: false
 	- ## 🕰️ Reminders
+	  collapsed:: true
 		- ### Tasks For Today
 		  query-table:: true
 		  {{query (task todo doing now later wait)}}
@@ -16,5 +17,9 @@ icon:: 📝
 	  collapsed:: true
 		- Today was a...
 	- ## 🗒️ Pages
-	- ## 🗓️ Important Events
+	- ## [[Important Events]]
+	-
+	-
+	-
+-
 -
