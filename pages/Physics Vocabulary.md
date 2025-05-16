@@ -1,2 +1,2 @@
-subject:: Science, Physics
+subject:: [[Science]] , Physics
 icon:: 🍎
