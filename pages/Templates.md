@@ -1,6 +1,7 @@
-# 🗓️ Daily
-template:: Daily
-template-including-parent:: false
+-
+- # 🗓️ Daily
+  template:: Daily
+  template-including-parent:: false
 	- ## 🕰️ Reminders
 		- ### Tasks For Today
 		  query-table:: true
