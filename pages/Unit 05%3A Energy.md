@@ -7,6 +7,7 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 
 - ## Kinetic and potential energy
 	- **Energy** #[[Physics Vocabulary]]
+	  collapsed:: true
 		- Measured in **Joules**
 		- **Scalar** quantity
 		- #### Energy Due To...
@@ -14,11 +15,13 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 			- Location - Potential Energy
 		- Energy is **always the same, the total energy never changes**
 	- **Kinetic Energy** #[[Physics Vocabulary]]
+	  collapsed:: true
 		- Energy due to **movement**
 		- Represented by $K$
 		- Formula:
 		  $$K=\frac12mr^2$$
 	- **Potential Energy** #[[Physics Vocabulary]]
+	  collapsed:: true
 		- Potential Energy is dependent on **two objects**
 		- System of **interacting particles**
 		- Represented by $U$
@@ -31,4 +34,10 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 		- Energy is neither created nor destroyed
 		- The total energy($P+U$) will **never change**
 		-
--
+- ## Work and Power
+	- **Work** #[[Physics Vocabulary]]
+		- Amount of Energy **transferred** by a force
+		- Measured in **Jules**
+		- **Scalar** quantity
+		- **When the force is the SAME as the velocity to the object** that is **POSITIVE WORK**
+		-
