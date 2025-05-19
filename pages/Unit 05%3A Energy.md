@@ -37,7 +37,13 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 - ## Work and Power
 	- **Work** #[[Physics Vocabulary]]
 		- Amount of Energy **transferred** by a force
-		- Measured in **Jules**
+		- Measured in **Joules**
 		- **Scalar** quantity
-		- **When the force is the SAME as the velocity to the object** that is **POSITIVE WORK**
+		- **When the force is the SAME as the velocity to the object** that is **POSITIVE WORK**, the opposite is the **NEGATIVE**
+		- If the force applied is **perpendicular** there is **ZERO** force
+	- **Power**
+		- Rate of doing work
+		- Formula
+		  $$P=\frac{Work}{time}$$
+		- Measured in **Joules per Second**
 		-
