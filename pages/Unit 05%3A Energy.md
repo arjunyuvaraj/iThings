@@ -19,13 +19,15 @@ banner:: https://images.unsplash.com/photo-1545056453-f0359c3df6db?q=80&w=3870&a
 		- Formula:
 		  $$K=\frac12mv^2$$
 	- **Potential Energy** #[[Physics Vocabulary]]
-	  collapsed:: true
 		- Potential Energy is dependent on **two objects**
 		- System of **interacting particles**
 		- Represented by $U$
 		- Dependent on position
-		- The potential energy at any distance can be calculated as:
-		  $$K_1+K_2=\frac{kq_1q2}{r}_{}$$
+		- The potential energy is calculated as
+		  $$U=mgh$$
+		  When $m, g, and h$ are mass, gravity, and height. Also, note the $g\approx9.88$
+		- $k$ is Columbs constant, 
+		  $$k=8.99*10^9$$
 		-
 - ## Conservation of energy
 	- **Conservation of Energy** #[[Physics Vocabulary]]
