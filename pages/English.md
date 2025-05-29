@@ -5,4 +5,5 @@ banner:: https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=387
 title:: English
 
 - # Welcome
-  Welcome to my hub for Science. This page includes EVERYTHING that is linked as science. All three sciences are included here: Biology, Chemistry, and Physics. Under each category are the names of various courses and under THAT you can find different lessons. Hope this helps!
+  Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes allof my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
+-
