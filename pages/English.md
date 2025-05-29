@@ -8,7 +8,7 @@ title:: English
   Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes allof my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
 - # 📖 Book Reviews
 	- ## June 2025
-		- [[Lost In The Sun by Lisa Graff]]
+		- [[Lost In The Sun by List Graff]]
 		-
 - # 📚Reading
 - # 📝 Writing

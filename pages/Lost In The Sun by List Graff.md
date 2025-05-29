@@ -2,17 +2,8 @@ Title:: Lost In The Sun
 Author:: Lisa Graff
 Publication:: 2015
 Genres:: Realistic Fiction, Fiction
+title:: Lost In The Sun by List Graff
 
--
--
-- ### 📚  Basic Info
-- **Title**
-- **Author**
-- **Series (if any)**
-- **Publication Year**
-- **Genre(s)** (e.g., dystopian, sci-fi)
-  
-  ---
 - ### 💡  **Content & Structure**
 - **Main Themes** (e.g., surveillance, AI ethics, rebellion)
 - **Setting** (time period, location, worldbuilding details)
@@ -42,3 +33,4 @@ Genres:: Realistic Fiction, Fiction
 - **Format** (audiobook, Kindle, physical)
 - **Re-read Worthy?**
 - **Compare to…** (books it reminded you of)
+title:: Lost In The Sun
