@@ -1,8 +1,9 @@
-title:: Lost In The Sun
-author:: Lisa Graff::
-Publication Year:: 2015
-Genres::
+Title:: Lost In The Sun
+Author:: Lisa Graff
+Publication:: 2015
+Genres:: Realistic Fiction, Fiction
 
+-
 -
 - ### 📚  Basic Info
 - **Title**
