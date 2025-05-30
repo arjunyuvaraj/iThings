@@ -7,7 +7,7 @@ title:: Lost In The Sun by List Graff
 - ## 💡 Section 01: Content & Structure
 	- **Main Themes:**
 	  The book touches upon a variety of themes, primarily, guilt, anger, family, and friendship. Originally, Trent Zimmerman resents his father, and has little to no friends. However, throughout his years, he slowly comes to terms with the death of a peer, and slowly opens himself to other connections. To sum up the theme:
-	  A vast majority of events in life are unpredictable and when people let uncontrollable circumstances affect someone's state of mind they lose sight on what matter's most: family and friends
+	  A vast majority of events in life are unpredictable and when people let uncontrollable circumstances control their mindset they lose sight on what matter's most: family and friends
 	- **Setting**
 	- **Tone/Mood**
 	- **Narrative Style**
