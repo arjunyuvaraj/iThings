@@ -66,7 +66,6 @@ genres:: Realistic Fiction, Fiction
 		- #+BEGIN_NOTE
 		  **Rating: 7.5/10**
 		  #+END_NOTE
-		-
 		- #+BEGIN_COMMENT
 		  h
 		  #+END_COMMENT 
@@ -79,4 +78,9 @@ genres:: Realistic Fiction, Fiction
 		- The book taught me the value of perspective and how by shifting the way we perceive things, we can come to different conclusions. Additionally, the book highlights the topic of emotions, with the protagonists own rage appearing in several different instances. I feel like it allowed me to empathize with the ways other people might express their own emotions.
 - ## 📰 Section 4: Extra, Extra, Read All About It
 	- ### **Section 4.1:** Date Read
-		- **Started: ** May 28th
+	  collapsed:: true
+		- **Started:** [[May 28th, 2025]]
+		- **Ended:** [[May 30th, 2025]]
+	- ### **Section 4.2:** Give as Gift
+	  collapsed:: true
+		- No, too childish
