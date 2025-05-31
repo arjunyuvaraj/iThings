@@ -7,9 +7,9 @@ title:: English
 - #  ☕️ Welcome
   Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes allof my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
 - # 📖 Book Reviews
-  The book review section is a compilation of EVERYTHING I have EVER read... since June of 2025. As of writing this it only has one book, but hopefully, as time progress I can add to the list. Each book review is split into four sections. To get the book review template tpye `/template`
+  The book review section is a compilation of EVERYTHING I have EVER read... since June of 2025. As of writing this it only has one book, but hopefully, as time progress I can add to the list. Each book review is split into four sections. To get the book review template type `/template`, after that click `Book Template`
 	- ## June 2025
-		- [[Lost In The Sun by List Graff]]
+		- [[Lost In The Sun]]
 		-
 - # 📚Reading
 - # 📝 Writing
