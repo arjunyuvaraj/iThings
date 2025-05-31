@@ -46,6 +46,8 @@ title:: Lost In The Sun by List Graff
 		  "I'm not broken, I'm just different now" (Graff 168).
 		- **On Control and Perspective**
 		  "If you don't like something, change it. If you can't change it, change the way you think about it" (Graff 228).
+		- **On Shifting Perspectives**
+		  "Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it"
 - ## 💭 Personal Thoughts
 	- **Rating (1–10)**
 	- **Would Recommend?**
