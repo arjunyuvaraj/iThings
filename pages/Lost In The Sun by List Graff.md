@@ -5,6 +5,7 @@ Genres:: Realistic Fiction, Fiction
 title:: Lost In The Sun by List Graff
 
 - ## 💡 Section 01: Content & Structure
+  collapsed:: true
 	- ### Main Themes:
 		- Originally, Trent Zimmerman resents his father, and has little to no friends. However, throughout his years, he slowly comes to terms with the death of a peer, and slowly opens himself to other connections.
 		- **THEME TOPICS:**
@@ -17,12 +18,14 @@ title:: Lost In The Sun by List Graff
 	- ### Setting
 		- The book takes place in a small town in California. Trent has two parents that live in different towns; they are divorced.
 	- ### Tone/Mood
-		- The overall tone of the book is more laid back, however, at certain points it can get tence.
+		- The overall tone of the book is more laid back, however, at certain points it can get tense. After reading the book, I have a feeling he might have some anger issues or something of the sort.
 	- ### Narrative Style
 		- The book is written in first person. Hence, readers are given insight on his trauma and thoughts. On top of that, he expresses his anger as a fire.
 	- ### Pacing
+		- The book progresses relatively slow. It starts around the beginning of sixth grade. From my perspective I think it leads into May-ish, Spring, as that seems to be the time the play baseball.
 - ## 🧠 Characters & Plot
-	- **Main Characters**
+	- ### Main Characters
+		- Trent Zimmerman
 	- **Character Development**
 	- **Plot Summary**
 	- **Twists/Surprises**
