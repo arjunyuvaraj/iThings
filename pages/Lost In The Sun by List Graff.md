@@ -38,6 +38,8 @@ title:: Lost In The Sun by List Graff
 		- Ms. Emerson used to be a home economics teacher
 		- Hates his father
 	- ### Favorite Scene/Quote
+		- “Miss Eveline said I shouldn’t say that, that I killed Jared, because it was an accident, what happened, and that wasn’t the same thing at all. But accident or not, Jared Richards died, and I was the reason, so what was the difference? Either way, I killed him” (Graff 17).
+		-
 - ## 💭 Personal Thoughts
 	- **Rating (1–10)**
 	- **Would Recommend?**
