@@ -30,7 +30,7 @@ title:: Lost In The Sun by List Graff
 		- **Aaron Zimmerman** - Oldest brother, loves playing pranks
 		- **Douglas Zimmerman** - Youngest brother, loves playing pranks but is kind of bad at it
 	- **Character Development**
-		-
+		- The protagonist, Trent Zimmerman, starts off as closed off and fearful. He wants to escape the trauma of Jared Richards, the person he killed with a hockey puck(by accident). Due to the incident, whenever he plays any soprt, he feels scared. Throughout the book, he meets a variety of characters and learns how to further his understanding on both his own emotions and others. He begins to understand how
 	- **Plot Summary**
 	- **Twists/Surprises**
 	- **Favorite Scene/Quote**
