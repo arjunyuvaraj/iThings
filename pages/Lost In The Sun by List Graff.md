@@ -1,7 +1,8 @@
-Title:: Lost In The Sun
-Author:: Lisa Graff
-Publication:: 2015
-Genres:: Realistic Fiction, Fiction
+type:: book
+book-title:: Lost In The Sun
+author:: Lisa Graff
+publication:: 2015
+genres:: Realistic Fiction, Fiction
 
 - ## 💡 Section 1: Content & Structure
 	- ### **Section 1.1:** Main Themes
@@ -77,4 +78,5 @@ Genres:: Realistic Fiction, Fiction
 	  collapsed:: true
 		- The book taught me the value of perspective and how by shifting the way we perceive things, we can come to different conclusions. Additionally, the book highlights the topic of emotions, with the protagonists own rage appearing in several different instances. I feel like it allowed me to empathize with the ways other people might express their own emotions.
 - ## 📰 Section 4: Extra, Extra, Read All About It
-  By all means, feel free to skip this part, unless you feel inclined too. It's just an extra space for any notes
+	- ### **Section 4.1:** Date Read
+		- **Started: ** May 28th
