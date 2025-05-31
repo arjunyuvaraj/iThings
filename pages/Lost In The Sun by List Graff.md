@@ -55,7 +55,8 @@ title:: Lost In The Sun by List Graff
 		- #### PERSONAL FAVORITE: On Shifting Perspectives #quote
 		  "Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it" (Graff 240).
 - ## 💭 Section 03: Personal Thoughts
-	- ### Rating (1–10)
+	- ### Rating: 7.5
+		- While the book was definently intresting, I do feel like the progression was slower than I liked. Moreover, it was as "action-packed" as some of the other good books that I have read in the past. Regardless, the book is still
 	- ### Would Recommend?
 	- ### How it made you feel
 	- ### What stuck with you?
