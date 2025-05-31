@@ -63,11 +63,16 @@ title:: Lost In The Sun by List Graff
 		- #### PERSONAL FAVORITE: On Shifting Perspectives #quote
 		  "Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it" (Graff 240).
 - ## 💭 Section 03: Personal Thoughts
-	- ###  **Section 3.1:** Rating: 7.5
-		- While the book was defiantly interesting, I do feel like the progression was slower than I liked. Moreover, it was as "action-packed" as some of the other good books that I have read in the past. Regardless, the book is still a good book and I would recommend it(see section 3.2).
+	- ###  **Section 3.1:** Rating
+		- #+BEGIN_COMMENT
+		  h
+		  #+END_COMMENT 
+		  While the book was defiantly interesting, I do feel like the progression was slower than I liked. Moreover, it was as "action-packed" as some of the other good books that I have read in the past. Regardless, the book is still a good book and I would recommend it(see section 3.2).
 	- ### **Section 3.2:** Would Recommend?
+	  collapsed:: true
 		- Personally, this book depends on who I am recommending the book to. I would recommend this book to someone who enjoys sports. However, I would suggest that they have to have a high interest in reading, as the book can get dry in certain places.
 	- ### **Section 3.3:** What stuck with you?
-		- The book taught me the value of perspective and how by shifting the way we percive things, we can come to different conclusions. I feel like it allowed me to emp
+	  collapsed:: true
+		- The book taught me the value of perspective and how by shifting the way we perceive things, we can come to different conclusions. Additionally, the book highlights the topic of emotions, with the protagonists own rage appearing in several different instances. I feel like it allowed me to empathize with the ways other people might express their own emotions.
 - ## 📰 Section 4: Extra, Extra, Read All About It
   By all means, feel free to skip this part, unless you feel inclined too. It's just an extra space for any notes
