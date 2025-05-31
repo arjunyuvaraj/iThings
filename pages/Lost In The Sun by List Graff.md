@@ -64,6 +64,7 @@ title:: Lost In The Sun by List Graff
 		  "Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it" (Graff 240).
 - ## 💭 Section 03: Personal Thoughts
 	- ###  **Section 3.1:** Rating
+		-
 		- #+BEGIN_COMMENT
 		  h
 		  #+END_COMMENT 
