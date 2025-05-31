@@ -25,8 +25,12 @@ title:: Lost In The Sun by List Graff
 		- The book progresses relatively slow. It starts around the beginning of sixth grade. From my perspective I think it leads into May-ish, Spring, as that seems to be the time the play baseball.
 - ## 🧠 Characters & Plot
 	- ### Main Characters
-		- Trent Zimmerman
+		- **Trent Zimmerman** - The main character
+		- **Fallon Little** - His, only, friend. Also a little bit weird.
+		- **Aaron Zimmerman** - Oldest brother, loves playing pranks
+		- **Douglas Zimmerman** - Youngest brother, loves playing pranks but is kind of bad at it
 	- **Character Development**
+		-
 	- **Plot Summary**
 	- **Twists/Surprises**
 	- **Favorite Scene/Quote**
