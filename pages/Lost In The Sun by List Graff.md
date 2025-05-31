@@ -66,8 +66,8 @@ title:: Lost In The Sun by List Graff
 	- ###  **Section 3.1:** Rating: 7.5
 		- While the book was defiantly interesting, I do feel like the progression was slower than I liked. Moreover, it was as "action-packed" as some of the other good books that I have read in the past. Regardless, the book is still a good book and I would recommend it(see section 3.2).
 	- ### **Section 3.2:** Would Recommend?
-		- Personally, this book depends on who I am recommending the book to. I would recommend this book to someone who enjoys sports. However, I would suggest that they have to have a high intrest in reading,
-	- ### **Section 3.3:** How it made you feel
-	- ### **Section 3.4:** What stuck with you?
+		- Personally, this book depends on who I am recommending the book to. I would recommend this book to someone who enjoys sports. However, I would suggest that they have to have a high interest in reading, as the book can get dry in certain places.
+	- ### **Section 3.3:** What stuck with you?
+		- The book explains,
 - ## 📰 Section 4: Extra, Extra, Read All About It
   By all means, feel free to skip this part, unless you feel inclined too. It's just an extra space for any notes
