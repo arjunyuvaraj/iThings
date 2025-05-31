@@ -23,7 +23,7 @@ title:: Lost In The Sun by List Graff
 		- The book is written in first person. Hence, readers are given insight on his trauma and thoughts. On top of that, he expresses his anger as a fire.
 	- ### Pacing
 		- The book progresses relatively slow. It starts around the beginning of sixth grade. From my perspective I think it leads into May-ish, Spring, as that seems to be the time the play baseball.
-- ## 🧠 Characters & Plot
+- ## 🧠 Section 02: Characters & Plot
 	- ### Main Characters
 		- **Trent Zimmerman** - The main character
 		- **Fallon Little** - His, only, friend. Also a little bit weird.
@@ -38,15 +38,15 @@ title:: Lost In The Sun by List Graff
 		- Ms. Emerson used to be a home economics teacher
 		- Hates his father
 	- ### Favorite Scene/Quote
-		- **On Guilt and Responsibility**
+		- #### On Guilt and Responsibility #quote
 		  "Miss Eveline said I shouldn’t say that, that I killed Jared, because it was an accident, what happened, and that wasn’t the same thing at all. But accident or not, Jared Richards died, and I was the reason, so what was the difference? Either way, I killed him" (Graff 17).
-		- **On Anger and Emotions**
+		- #### On Anger and Emotions #quote
 		  "As soon as he said that, I got that fire in my body, the one that started like a ball in my chest, dense and heavy, then radiated down to my stomach, my legs, my toes, and out to my neck, my face, my ears. Even all the way to my fingernails. Hot, prickly, fire skin, all over" (Graff 11).
-		- **On Acceptance and Change**
+		- #### On Acceptance and Change #quote
 		  "I'm not broken, I'm just different now" (Graff 168).
-		- **On Control and Perspective**
+		- #### On Control and Perspective #quote
 		  "If you don't like something, change it. If you can't change it, change the way you think about it" (Graff 228).
-		- **On Shifting Perspectives**
+		- #### PERSONAL FAVORITE: On Shifting Perspectives #quote
 		  "Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it"
 - ## 💭 Personal Thoughts
 	- **Rating (1–10)**
