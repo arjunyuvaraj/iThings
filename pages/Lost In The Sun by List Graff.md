@@ -29,12 +29,15 @@ title:: Lost In The Sun by List Graff
 		- **Fallon Little** - His, only, friend. Also a little bit weird.
 		- **Aaron Zimmerman** - Oldest brother, loves playing pranks
 		- **Douglas Zimmerman** - Youngest brother, loves playing pranks but is kind of bad at it
-	- **Character Development**
+	- ### Character Development
 		- The protagonist, Trent Zimmerman, starts off as closed off and fearful. He wants to escape the trauma of Jared Richards, the person he killed with a hockey puck(by accident). Due to the incident, whenever he plays any soprt, he feels scared. Throughout the book, he meets a variety of characters and learns how to further his understanding on both his own emotions and others. He begins to understand how other people have different ways of expressing their own emotions.
 	- **Plot Summary**
-		- The novel follows, Trent Zimmerman
-	- **Twists/Surprises**
-	- **Favorite Scene/Quote**
+		- The novel follows, Trent Zimmerman in his first year of middle school. The past Feburyary, he was responsible for the death of a peer: Jared Richards. While no charges were pressed, he stills feels guilty. Over the course of the book, past emotions and current resentment begin to interfere with his lifestyle. Throughout the story, he meets and talks to a variety of different characters who hide and express different emotions in a variety of ways. Through this process he begins to understand where his own emotions emerge from and how to best deal with them.
+	- ### Twists/Surprises
+		- Fall Little never explicitly states why she got her scar
+		- Ms. Emerson used to be a home economics teacher
+		- Hates his father
+	- ### Favorite Scene/Quote
 - ## 💭 Personal Thoughts
 	- **Rating (1–10)**
 	- **Would Recommend?**
