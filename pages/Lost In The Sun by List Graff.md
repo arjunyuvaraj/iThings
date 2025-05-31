@@ -5,7 +5,6 @@ publication:: 2015
 genres:: Realistic Fiction, Fiction
 
 - ## 💡 Section 1: Content & Structure
-  collapsed:: true
 	- ### **Section 1.1:** Main Themes
 	  collapsed:: true
 		- #### Theme Summary
@@ -34,7 +33,6 @@ genres:: Realistic Fiction, Fiction
 	  collapsed:: true
 		- The book progresses relatively slow. It starts around the beginning of sixth grade. From my perspective I think it leads into May-ish, Spring, as that seems to be the time the play baseball.
 - ## 🧠 Section 02: Characters & Plot
-  collapsed:: true
 	- ### **Section 2.1:** Main Characters
 	  collapsed:: true
 		- **Trent Zimmerman** - The main character
@@ -65,7 +63,6 @@ genres:: Realistic Fiction, Fiction
 		- #### PERSONAL FAVORITE: On Shifting Perspectives #quote
 		  "Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it" (Graff 240).
 - ## 💭 Section 03: Personal Thoughts
-  collapsed:: true
 	- ###  **Section 3.1:** Rating
 	  collapsed:: true
 		- #+BEGIN_NOTE
@@ -79,7 +76,6 @@ genres:: Realistic Fiction, Fiction
 	  collapsed:: true
 		- The book taught me the value of perspective and how by shifting the way we perceive things, we can come to different conclusions. Additionally, the book highlights the topic of emotions, with the protagonists own rage appearing in several different instances. I feel like it allowed me to empathize with the ways other people might express their own emotions.
 - ## 📰 Section 4: Extra, Extra, Read All About It
-  collapsed:: true
 	- ### **Section 4.1:** Date Read
 	  collapsed:: true
 		- **Started:** [[May 28th, 2025]]
