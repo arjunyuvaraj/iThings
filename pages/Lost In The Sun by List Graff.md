@@ -44,7 +44,7 @@ title:: Lost In The Sun by List Graff
 		  “As soon as he said that, I got that fire in my body, the one that started like a ball in my chest, dense and heavy, then radiated down to my stomach, my legs, my toes, and out to my neck, my face, my ears. Even all the way to my fingernails. Hot, prickly, fire skin, all over.” (Graff 11)
 		- **On Acceptance and Change**
 		  “I'm not broken, I'm just different now” (Graff 168).
-		-
+		- **On Control and **
 - ## 💭 Personal Thoughts
 	- **Rating (1–10)**
 	- **Would Recommend?**
