@@ -4,6 +4,9 @@ Publication:: 2015
 Genres:: Realistic Fiction, Fiction
 title:: Lost In The Sun by List Graff
 
+- #+BEGIN_PINNED
+  # Lost In The Sun by Lisa Graff
+  #+END_PINNED
 - ## 💡 Section 1: Content & Structure
 	- ### **Section 1.1:** Main Themes
 	  collapsed:: true
@@ -66,6 +69,7 @@ title:: Lost In The Sun by List Graff
 		- #+BEGIN_NOTE
 		  **Rating: 7.5/10**
 		  #+END_NOTE
+		-
 		- #+BEGIN_COMMENT
 		  h
 		  #+END_COMMENT 
