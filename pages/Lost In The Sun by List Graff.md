@@ -5,6 +5,7 @@ publication:: 2015
 genres:: Realistic Fiction, Fiction
 
 - ## 💡 Section 1: Content & Structure
+  collapsed:: true
 	- ### **Section 1.1:** Main Themes
 	  collapsed:: true
 		- #### Theme Summary
@@ -33,6 +34,7 @@ genres:: Realistic Fiction, Fiction
 	  collapsed:: true
 		- The book progresses relatively slow. It starts around the beginning of sixth grade. From my perspective I think it leads into May-ish, Spring, as that seems to be the time the play baseball.
 - ## 🧠 Section 02: Characters & Plot
+  collapsed:: true
 	- ### **Section 2.1:** Main Characters
 	  collapsed:: true
 		- **Trent Zimmerman** - The main character
@@ -51,6 +53,7 @@ genres:: Realistic Fiction, Fiction
 		- Ms. Emerson used to be a home economics teacher
 		- Hates his father
 	- ### **Section 2.5:** Favorite Scene/Quote
+	  collapsed:: true
 		- #### On Guilt and Responsibility #quote
 		  "Miss Eveline said I shouldn’t say that, that I killed Jared, because it was an accident, what happened, and that wasn’t the same thing at all. But accident or not, Jared Richards died, and I was the reason, so what was the difference? Either way, I killed him" (Graff 17).
 		- #### On Anger and Emotions #quote
@@ -62,13 +65,12 @@ genres:: Realistic Fiction, Fiction
 		- #### PERSONAL FAVORITE: On Shifting Perspectives #quote
 		  "Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it" (Graff 240).
 - ## 💭 Section 03: Personal Thoughts
+  collapsed:: true
 	- ###  **Section 3.1:** Rating
+	  collapsed:: true
 		- #+BEGIN_NOTE
 		  **Rating: 7.5/10**
 		  #+END_NOTE
-		- #+BEGIN_COMMENT
-		  h
-		  #+END_COMMENT 
 		  While the book was defiantly interesting, I do feel like the progression was slower than I liked. Moreover, it was as "action-packed" as some of the other good books that I have read in the past. Regardless, the book is still a good book and I would recommend it(see section 3.2).
 	- ### **Section 3.2:** Would Recommend?
 	  collapsed:: true
@@ -77,6 +79,7 @@ genres:: Realistic Fiction, Fiction
 	  collapsed:: true
 		- The book taught me the value of perspective and how by shifting the way we perceive things, we can come to different conclusions. Additionally, the book highlights the topic of emotions, with the protagonists own rage appearing in several different instances. I feel like it allowed me to empathize with the ways other people might express their own emotions.
 - ## 📰 Section 4: Extra, Extra, Read All About It
+  collapsed:: true
 	- ### **Section 4.1:** Date Read
 	  collapsed:: true
 		- **Started:** [[May 28th, 2025]]
