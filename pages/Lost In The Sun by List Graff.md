@@ -68,6 +68,6 @@ title:: Lost In The Sun by List Graff
 	- ### **Section 3.2:** Would Recommend?
 		- Personally, this book depends on who I am recommending the book to. I would recommend this book to someone who enjoys sports. However, I would suggest that they have to have a high interest in reading, as the book can get dry in certain places.
 	- ### **Section 3.3:** What stuck with you?
-		- The book explains,
+		- The book taught me the value of perspective and how by shifting the way we percive things, we can come to different conclusions. I feel like it allowed me to emp
 - ## 📰 Section 4: Extra, Extra, Read All About It
   By all means, feel free to skip this part, unless you feel inclined too. It's just an extra space for any notes
