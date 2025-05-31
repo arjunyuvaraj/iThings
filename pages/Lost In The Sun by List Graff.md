@@ -40,7 +40,8 @@ title:: Lost In The Sun by List Graff
 	- ### Favorite Scene/Quote
 		- **On Guilt and Responsibility**
 		  “Miss Eveline said I shouldn’t say that, that I killed Jared, because it was an accident, what happened, and that wasn’t the same thing at all. But accident or not, Jared Richards died, and I was the reason, so what was the difference? Either way, I killed him” (Graff 17).
-		- **On Anger and **
+		- **On Anger and Emotions**
+		  “As soon as he said that, I got that fire in my body, the one that started like a ball in my chest, dense and heavy, then radiated down to my stomach, my legs, my toes, and out to my neck, my face, my ears. Even all the way to my fingernails. Hot, prickly, fire skin, all over.” (Graff )
 - ## 💭 Personal Thoughts
 	- **Rating (1–10)**
 	- **Would Recommend?**
