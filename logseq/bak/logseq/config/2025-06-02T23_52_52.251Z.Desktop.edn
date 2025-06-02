@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["science" "templates"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -428,4 +428,4 @@
  :journal/page-title-format "MMM do, yyyy"
  :graph/forcesettings {:link-dist 180
  :charge-strength -600
- :charge-range 600}}
+ :charge-range 3800}}
