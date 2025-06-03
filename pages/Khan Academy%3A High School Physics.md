@@ -11,4 +11,5 @@ link:: https://www.khanacademy.org/science/highschool-physics
 - [[Unit 03: Gravitation]]
 - [[Unit 04: Electrostatics]]
 - [[Unit 05: Energy]]
+- [[Unit 06: Electromagnetics]]
 -
