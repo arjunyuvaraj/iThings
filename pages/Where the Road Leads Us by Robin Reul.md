@@ -7,7 +7,7 @@ genres:: Realistic Fiction, Romance
 - ## 💡 Section 1: Content & Structure
 	- ### **Section 1.1:** Main Themes
 		- #### Theme Summary
-			- Throughout the book, both Jack and Hallie converse with each other at a
+			- Throughout the book, both Jack and Hallie converse with each other at a deep level.
 		- #### Theme Topics
 		  collapsed:: true
 			- Expectations
