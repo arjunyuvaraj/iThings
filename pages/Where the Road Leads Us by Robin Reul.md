@@ -8,7 +8,13 @@ genres:: Realistic Fiction, Romance
 	- ### **Section 1.1:** Main Themes
 		- #### Theme Summary
 		- #### Theme Topics
+			- Expectations
+			- Family/Friendship
+			- Choices
+			- Pressure
+			- Death
 		- #### Final Theme(s)
+			- By making choices, independent of external exceptions and pressure, people can give themselves many more opportunities, and lead their life in a more fulfilling way.
 	- ### **Section 1.2:** Setting
 	- ### **Section 1.3:** Tone/Mood
 	- ### **Section 1.4:** Narrative Style
@@ -26,7 +32,11 @@ genres:: Realistic Fiction, Romance
 	- ### **Section 3.2:** Would Recommend?
 	- ### **Section 3.3:** What stuck with you?
 - ## 📰 Section 4: Extra, Extra, Read All About It
+  collapsed:: true
 	- ### **Section 4.1:** Date Read
-		- **Started:**
-		- **Ended:**
+		- **Started:** [[Jun 1st, 2025]]
+		- **Ended:** [[Jun 5th, 2025]]
+		  :LOGBOOK:
+		  CLOCK: [2025-06-05 Thu 11:06:54]--[2025-06-05 Thu 11:06:54] =>  00:00:00
+		  :END:
 	- ### **Section 4.2:** Give as Gift
