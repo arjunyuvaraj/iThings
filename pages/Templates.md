@@ -25,6 +25,11 @@ icon:: 📝
 - # Book Template
   template:: Book Review
   template-including-parent:: false
+	- type:: Book
+	  book-title:: Lost In The Sun
+	  author:: Lisa Graff
+	  publication:: 2015
+	  genres:: Realistic Fiction, Fiction
 	- ## 💡 Section 1: Content & Structure
 	  collapsed:: true
 		- ### **Section 1.1:** Main Themes

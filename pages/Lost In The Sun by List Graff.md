@@ -1,4 +1,4 @@
-type:: book
+type:: Book
 book-title:: Lost In The Sun
 author:: Lisa Graff
 publication:: 2015
