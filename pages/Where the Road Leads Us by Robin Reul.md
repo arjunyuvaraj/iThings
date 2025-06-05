@@ -7,14 +7,17 @@ genres:: Realistic Fiction, Romance
 - ## 💡 Section 1: Content & Structure
 	- ### **Section 1.1:** Main Themes
 		- #### Theme Summary
+			- Throughout the book, both Jack and Hallie converse with each other at a
 		- #### Theme Topics
+		  collapsed:: true
 			- Expectations
 			- Family/Friendship
 			- Choices
 			- Pressure
 			- Death
 		- #### Final Theme(s)
-			- By making choices, independent of external exceptions and pressure, people can give themselves many more opportunities, and lead their life in a more fulfilling way.
+		  collapsed:: true
+			- When individuals make decisions on their own terms, independent of societal expectations, they create the possibility for personal growth and a more meaningful path forward.
 	- ### **Section 1.2:** Setting
 	- ### **Section 1.3:** Tone/Mood
 	- ### **Section 1.4:** Narrative Style
