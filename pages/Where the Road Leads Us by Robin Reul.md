@@ -20,7 +20,8 @@ genres:: Realistic Fiction, Romance
 		  collapsed:: true
 			- When individuals make decisions on their own terms, independent of societal expectations, they create the possibility for personal growth and a more meaningful path forward.
 	- ### **Section 1.2:** Setting
-		- The book takes place in California, in a modern day world. I would say around the year 2017-ish
+	  collapsed:: true
+		- The book takes place in California, in a modern day world. I would say around the year 2017-ish. It's a little bit old fashion too.
 	- ### **Section 1.3:** Tone/Mood
 	- ### **Section 1.4:** Narrative Style
 	- ### **Section 1.5:** Pacing
