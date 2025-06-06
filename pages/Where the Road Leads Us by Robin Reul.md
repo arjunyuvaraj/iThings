@@ -6,8 +6,9 @@ genres:: Realistic Fiction, Romance
 
 - ## 💡 Section 1: Content & Structure
 	- ### **Section 1.1:** Main Themes
+	  collapsed:: true
 		- #### Theme Summary
-			- Throughout the book, both Jack and Hallie converse with each other at a deep level. In fact, Jack finds himself connecting more with Hallie than anyone in his past. Throughout the book, the delve into a variety if topics, discussing future paths, expectations,
+			- Throughout the book, both Jack and Hallie converse with each other at a deep level. In fact, Jack finds himself connecting more with Hallie than anyone in his past. Throughout the book, the delve into a variety if topics, discussing future paths, expectations, and family/friends.
 		- #### Theme Topics
 		  collapsed:: true
 			- Expectations
@@ -19,6 +20,7 @@ genres:: Realistic Fiction, Romance
 		  collapsed:: true
 			- When individuals make decisions on their own terms, independent of societal expectations, they create the possibility for personal growth and a more meaningful path forward.
 	- ### **Section 1.2:** Setting
+		- The book takes place in Califonia, in a modern day world. I would say around the year 20
 	- ### **Section 1.3:** Tone/Mood
 	- ### **Section 1.4:** Narrative Style
 	- ### **Section 1.5:** Pacing
