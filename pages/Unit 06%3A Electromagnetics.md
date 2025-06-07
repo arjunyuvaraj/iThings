@@ -19,6 +19,6 @@ banner:: https://images.unsplash.com/photo-1668018193167-570b148406ba?q=80&w=266
 		- We need voltage to have electric current
 		- **Insulators** keep the electrons tightly bound
 		- **Conductors** let the electrons move
-		- 0
-		-
+- ## Magnetic Field Due To Current
+	-
 -
