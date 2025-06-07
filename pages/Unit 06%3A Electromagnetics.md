@@ -20,5 +20,15 @@ banner:: https://images.unsplash.com/photo-1668018193167-570b148406ba?q=80&w=266
 		- **Insulators** keep the electrons tightly bound
 		- **Conductors** let the electrons move
 - ## Magnetic Field Due To Current
-	-
--
+	- ### Basic Properties
+		- If you increase the strength of the current then the magnetic field will increase
+		- If the magnent is close to the wire, then it will feel a strong force
+		- The field lines a concentric circles, with the center being the wire/electric current
+	- ### Right Hand Thumb Rule
+		- By gripping a pen with your right hand such that the thumb is in the direction of the wire, then the other four finger will naturally go in the direction of the magnetic field
+- ## Electric Motors
+	- ### Basic Properties
+		- By increasing the current, the force will also increase
+		- When the write experiences maximum force, it will be perpendicular to the field
+		- Direction of the force is determine of the current direction and the field direction
+		-
