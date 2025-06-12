@@ -23,11 +23,19 @@ genres:: Realistic Fiction, Romance
 	  collapsed:: true
 		- The book takes place in California, in a modern day world. I would say around the year 2017-ish. It's a little bit old fashion too.
 	- ### **Section 1.3:** Tone/Mood
+	  collapsed:: true
+		- The book is written in a more relaxed tone. However, it can get a little introspective at times.
 	- ### **Section 1.4:** Narrative Style
+	  collapsed:: true
+		- The book switches between the two characters: Halley and Jack
 	- ### **Section 1.5:** Pacing
+	  collapsed:: true
+		- The book moves quickly
 - ## 🧠 Section 02: Characters & Plot
-  collapsed:: true
 	- ### **Section 2.1:** Main Characters
+	  collapsed:: true
+		- **Jack** – A 17-year-old boy who has just graduated high school. He’s dealing with the recent death of his father. Jack sets out on a spontaneous trip to find his brother. His brother Alex, was kicked out of there life because he was drunk, and found overdosing.
+		- **Hallie** – A teen girl who is also going through a difficult time. She’s run away from home to reconnect with someone from her past. Jack and Hallie meet unexpectedly and decide to travel together.
 	- ### **Section 2.2:** Character Development
 	- ### **Section 2.3:** Plot Summary
 	- ### **Section 2.4:** Twists/Surprises
