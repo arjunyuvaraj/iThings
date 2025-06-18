@@ -12,6 +12,7 @@ title:: English
 		- [[Lost In The Sun by List Graff]]
 		- [[Where the Road Leads Us by Robin Reul]]
 		- [[This Is Our Story by Ashley Elston]]
+		- [[Kings of the Wyld by Nicholas Eames]]
 		-
 		-
 - # 📚Reading
