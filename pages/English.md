@@ -13,6 +13,8 @@ title:: English
 		- [[Where the Road Leads Us by Robin Reul]]
 		- [[This Is Our Story by Ashley Elston]]
 		- [[Kings of the Wyld by Nicholas Eames]]
+		- [[Patron Saints of Nothing by Randy Ribay]]
+		-
 		-
 		-
 - # 📚Reading
