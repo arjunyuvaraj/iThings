@@ -6,6 +6,9 @@ icon:: 🖥️
 - # Flutter Basic Training - 12 Minute Bootcamp
 	- {{video https://www.youtube.com/watch?v=1xipg02Wu8s}}
 	- ## Important Commands
-	- `flutter create myapp` - creates a new flutter app with a name of myapp
-	- `flutter run` - runs flutter code
-	-
+		- `flutter create myapp` - creates a new flutter app with a name of myapp
+		- `flutter run` - runs flutter code
+	- ## Layout
+		- **Container:** like a div in HTML
+		- Flutter uses something similar to **flexbox**
+		-
