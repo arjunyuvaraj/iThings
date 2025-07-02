@@ -16,6 +16,17 @@ type:: Hub
 			- For the most part it should keep gird lines parallel
 		- The only thing you need to understand is when $\hat{\imath},\hat{\jmath}$ land, from there you can deduce an equation
 		- The following equation is EXTREMLY useful:
-			-
-			-
-			-
+		  $$
+		  \begin{bmatrix}
+		  i_x & j_x \\
+		  i_y & j_y
+		  \end{bmatrix}
+		  \begin{bmatrix}
+		  x \\
+		  y
+		  \end{bmatrix}
+		  = (ax + by)\hat{\imath} + (cx + dy)\hat{\jmath}
+		  $$
+-
+	-
+	-
