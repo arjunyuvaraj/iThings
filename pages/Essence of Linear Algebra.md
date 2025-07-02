@@ -6,4 +6,4 @@ type:: Hub
 - ## 01. Vectors
 - ## 02. Linear combinations, span, and basis vectors
 - ## 03. Linear transformations and matrices
-	- Every vector is a combination of $i$
+	- Every vector is a combination of $ihat$
