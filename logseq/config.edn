@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["science" "english"]
+ :favorites ["computer science" "science" "english"]
 
  ;; Set flashcards interval.
  ;; Expected value:

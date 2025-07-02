@@ -4,6 +4,7 @@ subject:: [[Computer Science]], Flutter
 icon:: 🖥️
 
 - # Flutter Basic Training - 12 Minute Bootcamp
+  collapsed:: true
 	- {{video https://www.youtube.com/watch?v=1xipg02Wu8s}}
 	- ## Important Commands
 		- `flutter create myapp` - creates a new flutter app with a name of myapp
