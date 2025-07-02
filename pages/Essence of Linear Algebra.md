@@ -3,4 +3,6 @@ icon:: 🧮
 subject:: [[Math]], Linear Algebra, [[Computer Science]], Physics
 type:: Hub
 
--
+- ## 01. Vectors
+- ## 02. Linear combinations, span, and basis vectors
+- ## 03.
