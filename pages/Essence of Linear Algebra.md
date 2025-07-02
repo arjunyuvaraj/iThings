@@ -6,4 +6,13 @@ type:: Hub
 - ## 01. Vectors
 - ## 02. Linear combinations, span, and basis vectors
 - ## 03. Linear transformations and matrices
-	- Every vector is a combination of $ihat$
+	- Linear Transfomration
+		- **Transformation** essentially means function: input and output
+		- **Linear** has two properties
+			- Lines can not be curved
+			  logseq.order-list-type:: number
+			- The Origin must NEVER move
+			  logseq.order-list-type:: number
+			- For the most part it should keep gird lines parallel
+		- The only thing you need to understand is when i hat and j hat land, from there you can deduce an equation
+			-
