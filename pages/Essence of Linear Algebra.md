@@ -2,3 +2,5 @@ banner:: https://images.unsplash.com/photo-1521117184087-0bf82f2385ab?q=80&w=227
 icon:: 🧮
 subject:: [[Math]], Linear Algebra, [[Computer Science]], Physics
 type:: Hub
+
+-
