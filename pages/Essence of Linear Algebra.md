@@ -15,17 +15,21 @@ type:: Hub
 			  logseq.order-list-type:: number
 			- For the most part it should keep gird lines parallel
 		- The only thing you need to understand is when $\hat{\imath},\hat{\jmath}$ land, from there you can deduce an equation
-		- The following equation is EXTREMLY useful:
+		- The following equation is EXTREMLY useful... it allows us to find any new vector based on how $\hat{\imath},\hat{\jmath}$ in the new graph. By multiplying them on the old vector, you get the new one
 		  $$
 		  \begin{bmatrix}
-		  i_x & j_x \\
-		  i_y & j_y
+		  a & b \\
+		  c & d
 		  \end{bmatrix}
 		  \begin{bmatrix}
 		  x \\
 		  y
 		  \end{bmatrix}
-		  = (ax + by)\hat{\imath} + (cx + dy)\hat{\jmath}
+		  = 
+		  \begin{bmatrix}
+		  ax + bx \\
+		  cy + cy
+		  \end{bmatrix}
 		  $$
 -
 	-
