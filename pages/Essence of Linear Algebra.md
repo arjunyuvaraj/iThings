@@ -14,5 +14,8 @@ type:: Hub
 			- The Origin must NEVER move
 			  logseq.order-list-type:: number
 			- For the most part it should keep gird lines parallel
-		- The only thing you need to understand is when i hat and j hat land, from there you can deduce an equation
+		- The only thing you need to understand is when $\hat{\imath},\hat{\jmath}$ land, from there you can deduce an equation
+		- The following equation is EXTREMLY useful:
+			-
+			-
 			-
