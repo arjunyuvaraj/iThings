@@ -9,11 +9,12 @@ title:: English
 - # 📖 Book Reviews
   The book review section is a compilation of EVERYTHING I have EVER read... since June of 2025. As of writing this it only has one book, but hopefully, as time progress I can add to the list. Each book review is split into four sections. To get the book review template type `/template`, after that click `Book Template`
 	- ## June 2025
-		- [[Lost In The Sun by List Graff]]
-		- [[Where the Road Leads Us by Robin Reul]]
-		- [[This Is Our Story by Ashley Elston]]
-		- [[Kings of the Wyld by Nicholas Eames]]
-		- [[Patron Saints of Nothing by Randy Ribay]]
+		- Lost In The Sun by List Graff
+		- Where the Road Leads Us by Robin Reul
+		- This Is Our Story by Ashley Elston
+		- Kings of the Wyld by Nicholas Eames
+		- Patron Saints of Nothing by Randy Ribay
+	- ## July 2025
 		-
 		-
 		-
