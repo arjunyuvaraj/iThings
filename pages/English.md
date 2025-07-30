@@ -15,7 +15,8 @@ title:: English
 		- Kings of the Wyld by Nicholas Eames
 		- Patron Saints of Nothing by Randy Ribay
 	- ## July 2025
-		- ### The Naturals by
+		- **The Naturals by Jennifer Lynn Barnes**
+		  collapsed:: true
 			- The Naturals
 			- Killer Instinct
 			- All In
