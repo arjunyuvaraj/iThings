@@ -18,7 +18,9 @@ title:: English
 		- ### The Naturals
 			- The Naturals
 			- Killer Instinct
-			-
+			- All In
+			- Bad Blood
+			- Twelve
 		-
 		-
 - # 📚Reading
