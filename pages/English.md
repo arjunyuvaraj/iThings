@@ -9,7 +9,7 @@ title:: English
 - # 📖 Book Reviews
   The book review section is a compilation of EVERYTHING I have EVER read... since June of 2025. As of writing this it only has one book, but hopefully, as time progress I can add to the list. I have also outlined the system for ranking books!
 	- ## Book Rating System
-		-
+		- ☹️
 	- ## June 2025
 		- Lost In The Sun by List Graff
 		- Where the Road Leads Us by Robin Reul
