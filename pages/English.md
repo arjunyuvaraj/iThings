@@ -22,8 +22,11 @@ title:: English
 			- **Book 04:** Bad Blood
 			- **Novella:** Twelve
 		- The Book of Doors by Gareth Brown
-		- **The School for Good and Evil**
-			- **Book 01:** The School
+		- **The School for Good and Evil by Soman Chainani**
+			- **Book 01:** The School for Good and Evil
+			- **Book 01:** A World Without a Prince
+			-
+			-
 		-
 - # 📚Reading
 - # 📝 Writing
