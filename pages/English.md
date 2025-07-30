@@ -16,14 +16,14 @@ title:: English
 		- Patron Saints of Nothing by Randy Ribay
 	- ## July 2025
 		- **The Naturals by Jennifer Lynn Barnes**
-		  collapsed:: true
-			- The Naturals
-			- Killer Instinct
-			- All In
-			- Bad Blood
-			- Twelve
+			- **Book 01:** The Naturals
+			- **Book 02:** Killer Instinct
+			- **Book 03:** All In
+			- **Book 04:** Bad Blood
+			- **Novella:** Twelve
 		- The Book of Doors by Gareth Brown
-		-
+		- **The School for Good and Evil**
+			- **Book 01:** The School
 		-
 - # 📚Reading
 - # 📝 Writing
