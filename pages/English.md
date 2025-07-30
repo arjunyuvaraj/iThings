@@ -15,7 +15,10 @@ title:: English
 		- Kings of the Wyld by Nicholas Eames
 		- Patron Saints of Nothing by Randy Ribay
 	- ## July 2025
-		-
+		- ### The Naturals
+			- The Naturals
+			- Killer Instinct
+			-
 		-
 		-
 - # 📚Reading
