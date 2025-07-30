@@ -22,7 +22,8 @@ title:: English
 			- All In
 			- Bad Blood
 			- Twelve
-		- The Book of Doors by
+		- The Book of Doors by Gareth Brown
+		-
 		-
 - # 📚Reading
 - # 📝 Writing
