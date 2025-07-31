@@ -7,40 +7,53 @@ title:: English
 - #  ☕️ Welcome
   Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes allof my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
 - # 📖 Book Reviews
-  The book review section is a compilation of EVERYTHING I have EVER read... since June of 2025. As of writing this it only has one book, but hopefully, as time progress I can add to the list. I have also outlined the system for ranking books!
-	- ## Book Rating System
-		- **01/10:** 😠
-		- **02/10:** 🙁
-		- **03/10:** 😕
-		- **04/10:** 😐
-		- **05/10:** 😶
-		- **06/10:** 🙂
-		- **07/10:** 😌
-		- **08/10:** 😃
-		- **09/10:** 😁
-		- **10/10:** 😄
-	- ## June 2025
-		- Lost In The Sun by List Graff
-		- Where the Road Leads Us by Robin Reul
-		- This Is Our Story by Ashley Elston
-		- Kings of the Wyld by Nicholas Eames
-		- Patron Saints of Nothing by Randy Ribay
-	- ## July 2025
-		- **The Naturals by Jennifer Lynn Barnes**
-		  collapsed:: true
-			- **Book 01:** The Naturals
-			- **Book 02:** Killer Instinct
-			- **Book 03:** All In
-			- **Book 04:** Bad Blood
-			- **Novella:** Twelve
-		- The Book of Doors by Gareth Brown
-		- **The School for Good and Evil by Soman Chainani**
-		  collapsed:: true
-			- **Book 01:** The School for Good and Evil
-			- **Book 02:** A World Without Princes
-			- **Book 03:** The Last Ever After
-			-
+	- ## To Be Read
+		- |**Title**|**Author**|**Rating**|**Recommend**|
+		  |--|--|--|--|
+		  |Caraval|Stephanie Garber| - | - |
+		  |Long Way Down|Jason Reynolds| - | - |
+		  |Wicked: The Wicked Witch of the West|Gregory Maguire| - | - |
+		  |Son of a Witch|Gregory Maguire| - | - |
+		  |Lion Among Men|Gregory Maguire| - | - |
+		  |Out of Oz|Gregory Maguire| - | - |
 		-
+		-
+	- ## June 2025
+	  collapsed:: true
+		- |**Title**|**Author**|**Rating**|**Recommend**|
+		  |--|--|--|--|
+		  |Lost in the Sun|Lisa Graff|7.4/10|3.5/5|
+		  |Where the Road Leads Us|Robin Reul|9.5/10|5/5|
+		  |This Is Our Story|Ashley Elston|8.5/10|4.5/5|
+		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
+		  |Patron Saints of Nothing|Randy Ribay|8.7/10|4.5/5|
+	- ## July 2025
+	  collapsed:: true
+		- |**Title**|**Author**|**Rating**|**Recommend**|
+		  |--|--|--|--|
+		  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
+		  |The Naturals: Killer Instinct|Jennifer Lynn Barnes|9.3/10|4/5|
+		  |The Naturals: All In|Jennifer Lynn Barnes|9.7/10|4/5|
+		  |The Naturals: Bad Blood|Jennifer Lynn Barnes|9.5/10|4/5|
+		  |The Naturals: Twelve|Jennifer Lynn Barnes|6.5/10|2.5/5|
+		  |The Book of Doors|Gareth Brown|9.0/10|4.5/5|
+		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
+		  |The School for Good and Evil|Soman Chainani|6.5/10|2.5/5|
+		  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
+		  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
+	- ## August 2025
+		- |**Title**|**Author**|**Rating**|**Recommend**|
+		  |--|--|--|--|
+		  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
+		  |The Naturals: Killer Instinct|Jennifer Lynn Barnes|9.3/10|4/5|
+		  |The Naturals: All In|Jennifer Lynn Barnes|9.7/10|4/5|
+		  |The Naturals: Bad Blood|Jennifer Lynn Barnes|9.5/10|4/5|
+		  |The Naturals: Twelve|Jennifer Lynn Barnes|6.5/10|2.5/5|
+		  |The Book of Doors|Gareth Brown|9.0/10|4.5/5|
+		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
+		  |The School for Good and Evil|Soman Chainani|6.5/10|2.5/5|
+		  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
+		  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
 - # 📚Reading
 - # 📝 Writing
 -
