@@ -52,8 +52,9 @@ title:: English
 		  |The Book of Doors|Gareth Brown|9.0/10|4.5/5|
 		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
 		  |The School for Good and Evil|Soman Chainani|6.5/10|2.5/5|
-		  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
-		  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
+		  |A World Without Princes|Soman Chainani|7/10|2.5/5|
+		  |The Last Ever After|Soman Chainani|8.5/10|2.5/5|
+		  |One True King|Soman Chainani|8.7/10|2.5/5|
 - # 📚Reading
 - # 📝 Writing
 -
