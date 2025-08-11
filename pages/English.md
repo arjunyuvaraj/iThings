@@ -19,7 +19,6 @@ title:: English
 		-
 		-
 	- ## June 2025
-	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |Lost in the Sun|Lisa Graff|7.4/10|3.5/5|
@@ -28,7 +27,6 @@ title:: English
 		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
 		  |Patron Saints of Nothing|Randy Ribay|8.7/10|4.5/5|
 	- ## July 2025
-	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
@@ -44,17 +42,10 @@ title:: English
 	- ## August 2025
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
-		  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
-		  |The Naturals: Killer Instinct|Jennifer Lynn Barnes|9.3/10|4/5|
-		  |The Naturals: All In|Jennifer Lynn Barnes|9.7/10|4/5|
-		  |The Naturals: Bad Blood|Jennifer Lynn Barnes|9.5/10|4/5|
-		  |The Naturals: Twelve|Jennifer Lynn Barnes|6.5/10|2.5/5|
-		  |The Book of Doors|Gareth Brown|9.0/10|4.5/5|
-		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
-		  |The School for Good and Evil|Soman Chainani|6.5/10|2.5/5|
 		  |A World Without Princes|Soman Chainani|7/10|2.5/5|
-		  |The Last Ever After|Soman Chainani|8.5/10|2.5/5|
+		  |A Crystal Of Time|Soman Chainani|8.5/10|2.5/5|
 		  |One True King|Soman Chainani|8.7/10|2.5/5|
+		-
 - # 📚Reading
 - # 📝 Writing
 -
