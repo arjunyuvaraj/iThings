@@ -6,8 +6,10 @@ title:: English
 
 - #  ☕️ Welcome
   Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes allof my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
-- # 📖 Book Reviews
+- # 📖 Book Log
+  collapsed:: true
 	- ## To Be Read
+	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |Caraval|Stephanie Garber| - | - |
@@ -18,7 +20,20 @@ title:: English
 		  |Out of Oz|Gregory Maguire| - | - |
 		-
 		-
+	- ## Favorite Books
+	  collapsed:: true
+		- The Book Thief by Markus Zusak
+		  logseq.order-list-type:: number
+		- A List of Cages by Robin Reul
+		  logseq.order-list-type:: number
+		- The Naturals by Jennifer Lynn Barnes
+		  logseq.order-list-type:: number
+		- This is Our Story by Ashley Elston
+		  logseq.order-list-type:: number
+		- Where the Road Leads Us by Robin Reul
+		  logseq.order-list-type:: number
 	- ## June 2025
+	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |Lost in the Sun|Lisa Graff|7.4/10|3.5/5|
@@ -27,6 +42,7 @@ title:: English
 		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
 		  |Patron Saints of Nothing|Randy Ribay|8.7/10|4.5/5|
 	- ## July 2025
+	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
@@ -40,6 +56,7 @@ title:: English
 		  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
 		  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
 	- ## August 2025
+	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |A World Without Princes|Soman Chainani|7/10|2.5/5|
