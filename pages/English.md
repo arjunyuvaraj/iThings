@@ -5,7 +5,7 @@ banner:: https://images.unsplash.com/photo-1529942259099-eaa7a732a44b?q=80&w=267
 title:: English
 
 - #  ☕️ Welcome
-  Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes allof my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
+  Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes all of my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
 - # 📖 Book Log
   collapsed:: true
 	- ## To Be Read
