@@ -31,6 +31,8 @@ title:: English
 		- Where the Road Leads Us by Robin Reul
 		  logseq.order-list-type:: number
 	- ## June 2025
+		- **Lost in the Sun** by Lisa Graff
+		-
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |Lost in the Sun|Lisa Graff|7.4/10|3.5/5|
