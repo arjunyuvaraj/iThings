@@ -50,7 +50,6 @@ title:: English
 		  |The Naturals: Bad Blood|Jennifer Lynn Barnes|9.5/10|4/5|
 		  |The Naturals: Twelve|Jennifer Lynn Barnes|6.5/10|2.5/5|
 		  |The Book of Doors|Gareth Brown|9.0/10|4.5/5|
-		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
 		  |The School for Good and Evil|Soman Chainani|6.5/10|2.5/5|
 		  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
 		  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
