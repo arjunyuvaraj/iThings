@@ -18,21 +18,18 @@ icon:: 📝
 		- Today was a...
 	- ## 🗒️ Pages
 	- ## [[Important Events]]
-	-
-	-
-	-
-	- # Book Template
-	  template:: Book Review
-	  template-including-parent:: false
-		- {{title}}
-		  type:: book
-		  cover:: {{thumbnail}}
-		  authors:: {{authors}}
-		  published:: {{publishedAt}}
-		  isbn:: {{isbn}}
-		  categories:: {{categories}}
-		  pages:: {{pages}}
-		  language:: {{language}}
-		  publisher:: {{publisher}}
-		  maturity:: {{maturityRating}}
-		  description:: {{description}}
+- # Book Template
+  template:: Book Review
+  template-including-parent:: false
+	- {{title}}
+	  type:: book
+	  cover:: {{thumbnail}}
+	  authors:: {{authors}}
+	  published:: {{publishedAt}}
+	  isbn:: {{isbn}}
+	  categories:: {{categories}}
+	  pages:: {{pages}}
+	  language:: {{language}}
+	  publisher:: {{publisher}}
+	  maturity:: {{maturityRating}}
+	  description:: {{description}}
