@@ -20,7 +20,6 @@ title:: English
 		-
 		-
 	- ## Favorite Books
-	  collapsed:: true
 		- The Book Thief by Markus Zusak
 		  logseq.order-list-type:: number
 		- A List of Cages by Robin Reul
@@ -32,7 +31,6 @@ title:: English
 		- Where the Road Leads Us by Robin Reul
 		  logseq.order-list-type:: number
 	- ## June 2025
-	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |Lost in the Sun|Lisa Graff|7.4/10|3.5/5|
@@ -41,7 +39,6 @@ title:: English
 		  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
 		  |Patron Saints of Nothing|Randy Ribay|8.7/10|4.5/5|
 	- ## July 2025
-	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
