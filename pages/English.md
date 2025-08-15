@@ -60,7 +60,7 @@ title:: English
 		  |A World Without Princes|Soman Chainani|7/10|2.5/5|
 		  |A Crystal Of Time|Soman Chainani|8.5/10|2.5/5|
 		  |One True King|Soman Chainani|8.7/10|2.5/5|
-		  |Ready Player One|Ernest Cline|7.5/10|5/5|
+		  |Run With The Wind|Shion Miura|9.5/10|5/5|
 		  |Ready Player One|Ernest Cline|7.5/10|4.5/5|
 		-
 - # 📚Reading
