@@ -56,7 +56,7 @@ title:: English
 	- ## August 2025
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
-		  |Quest for Glory|Soman Chainani|7/10|2.5/5|
+		  |Quests for Glory|Soman Chainani|7/10|2.5/5|
 		  |A Crystal Of Time|Soman Chainani|8.5/10|2.5/5|
 		  |One True King|Soman Chainani|8.7/10|2.5/5|
 		  |Long Way Down|Jason Reynolds|4.5/10|2.5/5|
