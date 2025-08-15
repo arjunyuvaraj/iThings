@@ -3,7 +3,6 @@ icon:: 📝
 - # 🗓️ Daily
   template:: Daily
   template-including-parent:: false
-  collapsed:: true
 	- ## 🕰️ Reminders
 	  collapsed:: true
 		- ### Tasks For Today
@@ -22,6 +21,18 @@ icon:: 📝
 	-
 	-
 	-
-- # Book Template
-  template:: Book Review
-  template-including-parent:: false
+	- # Book Template
+	  template:: Book Review
+	  template-including-parent:: false
+		- {{title}}
+		  type:: book
+		  cover:: {{thumbnail}}
+		  authors:: {{authors}}
+		  published:: {{publishedAt}}
+		  isbn:: {{isbn}}
+		  categories:: {{categories}}
+		  pages:: {{pages}}
+		  language:: {{language}}
+		  publisher:: {{publisher}}
+		  maturity:: {{maturityRating}}
+		  description:: {{description}}
