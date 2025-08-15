@@ -7,7 +7,6 @@ title:: English
 - #  ☕️ Welcome
   Welcome to my hub for English. This encompasses a WIDE variety of topics mainly covering Writing and Reading. However, it also includes all of my book reviews starting form the date of writing this! [[May 28th, 2025]]! Also, this may include notes from future classes!
 - # 📖 Book Log
-  collapsed:: true
 	- ## To Be Read
 	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
@@ -56,12 +55,13 @@ title:: English
 		  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
 		  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
 	- ## August 2025
-	  collapsed:: true
 		- |**Title**|**Author**|**Rating**|**Recommend**|
 		  |--|--|--|--|
 		  |A World Without Princes|Soman Chainani|7/10|2.5/5|
 		  |A Crystal Of Time|Soman Chainani|8.5/10|2.5/5|
 		  |One True King|Soman Chainani|8.7/10|2.5/5|
+		  |Ready Player One|Ernest Cline|7.5/10|5/5|
+		  |Ready Player One|Ernest Cline|7.5/10|4.5/5|
 		-
 - # 📚Reading
 - # 📝 Writing
