@@ -18,9 +18,7 @@ icon:: 📝
 		- Today was a...
 	- ## 🗒️ Pages
 	- ## [[Important Events]]
-- # Book Template
-  template:: Book Review
-  template-including-parent:: false
+- template:: book review
 	- {{title}}
 	  type:: book
 	  cover:: {{thumbnail}}
