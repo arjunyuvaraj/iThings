@@ -43,7 +43,7 @@ icon:: 📝
 	    #``c.identity.slot`` .glass-card {
 	      background-image: linear-gradient(to right bottom, var(--gradient-from), 55%, var(--gradient-to));
 	      --gradient-from: color-mix(in srgb, white 35%, transparent);
-	      --gradient-to: color-mix(in srgb, var(--color-level-6) 10%, transparent);
+	      --gradient-to: color-mix(in srgb, black 10%, transparent);
 	      border-radius: 0.5rem;
 	      backdrop-filter: blur(100px);
 	    }
