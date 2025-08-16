@@ -1,6 +1,6 @@
 icon:: 📚
 subject:: Reading, Books, English
-banner:: https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 
 - ## To Be Read
   collapsed:: true
@@ -14,6 +14,8 @@ banner:: https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=267
 	  |Out of Oz|Gregory Maguire| - | - |
 	-
 	-
+-
+-
 - ## Favorite Books
 	- The Book Thief by Markus Zusak
 	  logseq.order-list-type:: number
