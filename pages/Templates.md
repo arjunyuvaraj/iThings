@@ -41,9 +41,9 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	      background-image: linear-gradient(to right bottom, var(--gradient-from), 55%, var(--gradient-to));
-	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 0%, transparent);
-	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, white);
+	      background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
+	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
+	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
 	      border-radius: 0.5rem;
 	      backdrop-filter: blur(100px);
 	    }
