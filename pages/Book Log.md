@@ -2,6 +2,17 @@ icon:: 📚
 subject:: Reading, Books, English
 banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 
+- author:: [[Peter Morville]]
+  name:: Intertwingled
+  category:: [[📖/philosophy]]
+	- ![cover](http://books.google.com/books/publisher/content?id=PEmLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73V1jqwLksxl4cNvFPyuebm0pZDVM6-CG5jHtziWw4SLI1blWVLxVrRQMHYeOd249joH3k9jw9l1Z7TZWlZmd-T8niNkvH5phhEn5_gToLmSS_arjx4G7zxPJp6jLodn-3xhM_6&source=gbs_ap)
+-
+-
+-
+-
+-
+-
+-
 - ## To Be Read
   collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
@@ -14,13 +25,8 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  |Out of Oz|Gregory Maguire| - | - |
 	-
 	-
--
-- {{renderer :template, properties}}
-  info:: This is so powerful!
-- {{renderer :template, properties}}
--
--
 - ## Favorite Books
+  collapsed:: true
 	- The Book Thief by Markus Zusak
 	  logseq.order-list-type:: number
 	- A List of Cages by Robin Reul
@@ -64,6 +70,7 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
 	  |Patron Saints of Nothing|Randy Ribay|8.7/10|4.5/5|
 - ## July 2025
+  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
@@ -76,6 +83,7 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
 	  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
 - ## August 2025
+  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  |Quests for Glory|Soman Chainani|7/10|2.5/5|
