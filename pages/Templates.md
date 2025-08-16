@@ -42,14 +42,14 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	      background-image: linear-gradient(to right bottom, var(--gradient-from), 55%, var(--gradient-to));
-	      --gradient-from: color-mix(in srgb, red 35%, transparent);
+	      --gradient-from: color-mix(in srgb, white 35%, transparent);
 	      --gradient-to: color-mix(in srgb, var(--color-level-6) 10%, transparent);
 	      border-radius: 0.5rem;
 	      backdrop-filter: blur(100px);
 	    }
 	  
 	    #``c.identity.slot`` .glass-card > div {
-	      background-color: color-mix(in srgb, var(white) 100%, transparent);
+	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
 	      border-radius: 0.5rem;
 	      margin: 0.5px;
 	      padding: 15px 0.75rem 0.75rem;
