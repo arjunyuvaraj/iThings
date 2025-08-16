@@ -1,6 +1,17 @@
 author:: [[Lisa Graff]]
 name:: [[Lost in the Sun]]
 category:: [[📖/Juvenile Fiction]]
+title:: Lost in the Sun
 
 	- ![cover](http://books.google.com/books/publisher/content?id=PEmLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73V1jqwLksxl4cNvFPyuebm0pZDVM6-CG5jHtziWw4SLI1blWVLxVrRQMHYeOd249joH3k9jw9l1Z7TZWlZmd-T8niNkvH5phhEn5_gToLmSS_arjx4G7zxPJp6jLodn-3xhM_6&source=gbs_ap)
--
+- ![Book Cover](http://books.google.com/books/publisher/content?id=6x5hDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE722MXzOG6tOBo2Voa6OMZyizcUqQxaeCiehoQpFI0spKStIkvsQlTTx_1iVchzRbsvvzmqsSahHNBch9AaIzN1lF2u80kfmTPC0tGngBYLhL5iDFykdomTDjmFlUK0kxcVeZstP&source=gbs_api)
+	- Title: Lost in the Sun
+	- ISBN: 0147508584
+	- Authors: Lisa Graff
+	- Published At: 4/25/2016
+	- Categories: Juvenile Fiction / Social Themes / Emotions & Feelings, Juvenile Fiction / Social Themes / Friendship, Juvenile Fiction / Family / General
+	- Pages: 320
+	- Language: en
+	- Publisher: Penguin
+	- Maturity Rating: NOT_MATURE
+	- Description: <b>From the author of <i>A Tangle of Knots</i> and <i>Absolutely Almost</i>, a touching story about a boy who won't let one tragic accident define him.</b><br><br> Everyone says that middle school is awful, but Trent knows nothing could be worse than the year he had in fifth grade, when a freak accident on Cedar Lake left one kid dead, and Trent with a brain full of terrible thoughts he can't get rid of. Trent’s pretty positive the entire disaster was his fault, so for him middle school feels like a fresh start, a chance to prove to everyone that he's not the horrible screw-up they seem to think he is. <br> <br> If only Trent could make that fresh start <i>happen.<br></i> <br> It isn’t until Trent gets caught up in the whirlwind that is Fallon Little—the girl with the mysterious scar across her face—that things begin to change. Because fresh starts aren’t always easy. Even in baseball, when a fly ball gets lost in the sun, you have to remember to shift your position to find it.<br><br> <b>Praise for <i>Lost in the Sun</i>:</b><br>  <br>A <i>Publishers Weekly</i> Best Book of the Year!<br> <br><b>*</b> "Graff writes with stunning insight [and] consistently demonstrates why character-driven novels can live from generation to generation."--<i>Kirkus Reviews</i> *STARRED*<br><br><b>*</b> "Graff creates layered, vulnerable characters that are worth getting to know."--<i>Booklist </i>*STARRED*<br><br><b>*</b> "[A]n ambitious and gracefully executed story."--<i>Publishers Weekly</i> *STARRED*<br>    <br><b>*</b> "Weighty matters deftly handled with humor and grace will give this book wide appeal."--<i>School Library Journal</i> *STARRED*<br> <br><b>*</b> "Characterization is thoughtful."--<i>BCCB </i>*STARRED*<br> <br>“In <i>Lost in the Sun</i>, Trent decides that he will speak the truth: that pain and anger and loss are not the final words, that goodness can find us after all—even when we hide from it.  This is a novel that speaks powerfully, honestly, almost shockingly about our human pain and our human redemption.  This book will change you.”—Gary Schmidt, two-time Newbery Honor-winning author of <i>The Wednesday Wars </i>and <i>Lizzie Bright and the Buckminster Boy</i><br>  <br> “Lisa Graff crafts a compelling story about a boy touched with tragedy and the world of people he cares about.  And like all the best stories, it ends at a new beginning.”—Richard Peck, Newbery Award-winning author of <i>A Year Down Yonder</i> and <i>A Long Way From Chicago</i><br>  <br>  <br> <b>Lisa Graff's Awards and Reviews:</b><br>  <br> Lisa Graff's books have been named to 30 state award lists, and <i>A Tangle of Knots </i>was long-listed for the National Book Award.
