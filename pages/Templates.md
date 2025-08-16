@@ -55,12 +55,13 @@ icon:: 📝
 	      --gradient-from: color-mix(in srgb, var(--ls-selection-text-color) 35%, transparent);
 	      --gradient-to: color-mix(in srgb, var(--color-level-6) 10%, transparent);
 	      border-radius: 0.5rem;
-	      backdrop-filter: blur(100px);
+	      // backdrop-filter: blur(100px);
 	    }
 	  
 	    #``c.identity.slot`` .glass-card > div {
 	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
 	      border-radius: 0.5rem;
+	      border: 1px, solid, white;
 	      margin: 0.5px;
 	      padding: 15px 0.75rem 0.75rem;
 	      ``when(c.args['card-width'], 'min-width: $1;')``
@@ -155,6 +156,6 @@ icon:: 📝
 	                      ``_ when(info3, '<div class="pt-2"     >$1</div>') _``
 	              </div>``{ }   _}``
 	    </div>
-	  </div>
-	  ```
+	  </div>```
+	-
 	-
