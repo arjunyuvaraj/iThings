@@ -19,7 +19,7 @@ icon:: 📝
 		- Today was a...
 	- ## 🗒️ Pages
 	- ## [[Important Events]]
--
+- collapsed:: true
 -
 -
 -
@@ -34,10 +34,10 @@ icon:: 📝
   arg-title:: .name
   arg-info1:: @author
   arg-info2:: @category
-  arg-info3::
+  arg-info3:: @rating
   arg-card-width::
   arg-cover-height::
-  arg-cover-width:: 56px
+  arg-cover-width::
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
