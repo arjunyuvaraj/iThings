@@ -34,7 +34,7 @@ icon:: 📝
 	  publisher:: {{publisher}}
 	  maturity:: {{maturityRating}}
 	  description:: {{description}}
--
+- collapsed:: true
 	- template:: glass-card
 	  template-version:: 11
 	  plugin-version:: 4.0.0
@@ -67,8 +67,16 @@ icon:: 📝
 		      ``when(c.args['card-width'], 'min-width: $1;')``
 		      ``when(c.args['card-width'], 'max-width: $1;')``
 		    }
+		      #``c.identity.slot`` .glass-card:hover > div {
+		      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
+		      border-radius: 0.5rem;
+		      margin: 0.5px;
+		      padding: 15px 0.75rem 0.75rem;
+		      ``when(c.args['card-width'], 'min-width: $1;')``
+		      ``when(c.args['card-width'], 'max-width: $1;')``
+		    }
 		  
-		    #``c.identity.slot`` .glass-card:hover > div {
+		    #``c.identity.slot`` .glass-card > div > div {
 		      /* compatibility with Bullet Threading plugin */
 		      height: auto !important;
 		    }
@@ -157,15 +165,9 @@ icon:: 📝
 		              </div>``{ }   _}``
 		    </div>
 		  </div>
-		   class="text-2xl font-medium">``title``</strong></a>``{ }   _}``
-		                      ``_ when(info1, '<div class="pt-2 pb-1">$1</div>') _``
-		                      ``_ when(info2, '<div class="pt-1 pb-1">$1</div>') _``
-		                      ``_ when(info3, '<div class="pt-2"     >$1</div>') _``
-		              </div>``{ }   _}``
-		    </div>
-		  </div>
 		  ```
 		-
 	-
 	-
 	-
+-
