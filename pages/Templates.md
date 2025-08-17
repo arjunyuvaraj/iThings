@@ -42,42 +42,42 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	      background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
-	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
-	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
-	      border-radius: 0.5rem;
-	      backdrop-filter: blur(100px);
-	    }
+	    width: 100%;                 /* make the card fill the parent cell */
+	    display: flex;               /* allow inner div to stretch */
+	    justify-content: stretch;    /* stretch inner content horizontally */
+	    background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
+	    --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
+	    --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
+	    border-radius: 0.5rem;
+	    backdrop-filter: blur(100px);
+	    margin: 2px 0;               /* small vertical spacing between cards */
+	    box-sizing: border-box;
+	  }
 	  
-	    #``c.identity.slot`` .glass-card > div {
-	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
-	      border-radius: 0.5rem;
-	      margin: 0.5px;
-	      padding: 15px 0.75rem 0.75rem;
-	      ``when(c.args['card-width'], 'min-width: $1;')``
-	      ``when(c.args['card-width'], 'max-width: $1;')``
-	    }
+	  #``c.identity.slot`` .glass-card > div {
+	    flex: 1 1 auto;              /* make inner div stretch inside the card */
+	    width: 100%;
+	    margin: 0;
+	    padding: 15px 0.75rem 0.75rem;
+	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
+	    border-radius: 0.5rem;
+	    box-sizing: border-box;
+	  }
 	  
-	    #``c.identity.slot`` .glass-card > div > div {
-	      /* compatibility with Bullet Threading plugin */
-	      height: auto !important;
-	    }
+	  #``c.identity.slot`` .glass-card img {
+	    ``when(c.args['cover-width'], 'width: $1; min-width: $1;')``
+	    ``when(c.args['cover-height'], 'height: $1; min-height: $1;')``
+	  }
 	  
-	    #``c.identity.slot`` .glass-card img {
-	      border-radius: 10px;
-	      ``when(c.args['cover-width'], 'width: $1; min-width: $1;')``
-	      ``when(c.args['cover-height'], 'height: $1; min-height: $1;')``
-	    }
+	  #``c.identity.slot`` .glass-card .info {
+	    font-size: 0.9rem;
+	    font-weight: 300;
+	    line-height: 1.5rem;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	  }
 	  
-	    #``c.identity.slot`` .glass-card div > a > strong {
-	      color: color-mix(in srgb, var(--ls-link-text-hover-color) 80%, transparent);
-	    }
-	  
-	    #``c.identity.slot`` .glass-card .info {
-	      font-size: 0.9rem;
-	      font-weight: 300;
-	      line-height: 1.5rem;
-	    }
 	  </style>
 	  
 	  ``{_
