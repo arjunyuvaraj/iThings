@@ -54,6 +54,8 @@ icon:: 📝
 	      border-radius: 0.5rem;
 	      margin: 0.5px;
 	      padding: 15px 0.75rem 0.75rem;
+	      ``when(c.args['card-width'], 'min-width: $1;')``
+	      ``when(c.args['card-width'], 'max-width: $1;')``
 	    }
 	  
 	    #``c.identity.slot`` .glass-card > div > div {
@@ -62,6 +64,7 @@ icon:: 📝
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
+	      border-radius: 10px;
 	      ``when(c.args['cover-width'], 'width: $1; min-width: $1;')``
 	      ``when(c.args['cover-height'], 'height: $1; min-height: $1;')``
 	    }
