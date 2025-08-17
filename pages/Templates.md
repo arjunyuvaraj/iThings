@@ -36,7 +36,7 @@ icon:: 📝
   arg-info2:: @category
   arg-info3:: @rating
   arg-info4:: @recommend
-  arg-card-width::
+  arg-card-width:: 
   arg-cover-height::
   arg-cover-width::
 	- ```jsx
@@ -54,8 +54,6 @@ icon:: 📝
 	      border-radius: 0.5rem;
 	      margin: 0.5px;
 	      padding: 15px 0.75rem 0.75rem;
-	      ``when(c.args['card-width'], 'min-width: $1;')``
-	      ``when(c.args['card-width'], 'max-width: $1;')``
 	    }
 	  
 	    #``c.identity.slot`` .glass-card > div > div {
@@ -146,10 +144,10 @@ icon:: 📝
 	                  ``{_ if (title) {  _}``
 	                      <a data-on-click="clickRef" data-ref="``reference``">
 	                          <strong class="text-2xl font-medium">``title``</strong></a>``{ }   _}``
-	                      ``_ when(info1, '<div class="pt-2 pb-1">By $1</div>') _``
-	                      ``_ when(info2, '<div class="pt-1 pb-1">$1</div>') _``
-	                      ``_ when(info3, '<div class="pt-2"     >Rating: $1</div>') _``
-	                      ``_ when(info4, '<div class="pt-2"     >Recommend: $1</div>') _``
+	                      ``_ when(info1, '<div class="pt-2 pb-1"><strong class="font-medium">Author:</strong> $1</div>') _``
+	                      ``_ when(info2, '<div class="pt-1 pb-1"><strong class="font-medium">Category:</strong> $1</div>') _``
+	                      ``_ when(info3, '<div class="pt-2"     ><strong class="font-medium">Rating:</strong> $1</div>') _``
+	                      ``_ when(info4, '<div class="pt-2"     ><strong class="font-medium">Recommend:</strong> $1</div>') _``
 	              </div>``{ }   _}``
 	    </div>
 	  </div>
