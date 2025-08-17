@@ -43,13 +43,9 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	    display: flex;                     /* keep image + text side by side */
-	    width: 300px;                       /* fixed width */
-	    height: 120px;                      /* fixed height */
+	    height: 300px;                      /* fixed height */
 	    box-sizing: border-box;
 	    margin: 4px 0;                      /* spacing between stacked cards */
-	    background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
-	    --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
-	    --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
 	    border-radius: 0.5rem;
 	    backdrop-filter: blur(100px);
 	    overflow: hidden;
@@ -82,10 +78,6 @@ icon:: 📝
 	    flex-direction: column;
 	    justify-content: center;
 	    flex: 1;                             /* take remaining space */
-	    
-	    overflow: hidden;                     /* hide extra text */
-	    text-overflow: ellipsis;             /* show ... */
-	    white-space: nowrap;                 /* keep everything on one line */
 	  }
 	  
 	  
