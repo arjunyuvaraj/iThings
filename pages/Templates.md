@@ -82,8 +82,12 @@ icon:: 📝
 	    flex-direction: column;
 	    justify-content: center;
 	    flex: 1;                             /* take remaining space */
-	    overflow: hidden;
+	    
+	    overflow: hidden;                     /* hide extra text */
+	    text-overflow: ellipsis;             /* show ... */
+	    white-space: nowrap;                 /* keep everything on one line */
 	  }
+	  
 	  
 	  
 	  
