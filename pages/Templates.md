@@ -42,34 +42,36 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	    display: flex;                /* keep horizontal layout for image + info */
-	    width: 100%;                  /* fill parent cell */
+	    display: flex;                     /* keep image + text side by side */
+	    width: 300px;                       /* fixed width */
+	    height: 120px;                      /* fixed height */
 	    box-sizing: border-box;
-	    margin: 4px 0;                /* spacing between stacked cards */
+	    margin: 4px 0;                      /* spacing between stacked cards */
 	    background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
 	    --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
 	    --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
 	    border-radius: 0.5rem;
 	    backdrop-filter: blur(100px);
-	    overflow: hidden;             /* prevent content overflow */
+	    overflow: hidden;
 	  }
 	  
 	  #``c.identity.slot`` .glass-card > div {
-	    display: flex;                /* keep inner flex for proper layout */
-	    flex: 1 1 auto;               /* stretch inner content to fill card */
+	    display: flex;
+	    flex: 1 1 auto;
 	    width: 100%;
 	    margin: 0;
-	    padding: 15px 0.75rem 0.75rem;
+	    padding: 10px;
 	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
 	    border-radius: 0.5rem;
 	    box-sizing: border-box;
 	  }
 	  
 	  #``c.identity.slot`` .glass-card img {
-	    flex-shrink: 0;               /* prevent image from shrinking */
-	    margin-right: 12px;           /* spacing between image and text */
-	    ``when(c.args['cover-width'], 'width: $1; min-width: $1;')``
-	    ``when(c.args['cover-height'], 'height: $1; min-height: $1;')``
+	    flex-shrink: 0;
+	    width: 80px;                        /* fixed image size */
+	    height: 100px;
+	    margin-right: 12px;
+	    object-fit: cover;                  /* avoid image distortion */
 	  }
 	  
 	  #``c.identity.slot`` .glass-card .info {
@@ -79,8 +81,10 @@ icon:: 📝
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center;
-	    flex: 1;                      /* text takes remaining space */
+	    flex: 1;                             /* take remaining space */
+	    overflow: hidden;
 	  }
+	  
 	  
 	  
 	  </style>
