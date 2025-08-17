@@ -42,6 +42,100 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
+	      width: 220px; /* set width */
+	      height: 350px; /* set height */
+	      display: flex;
+	      flex-direction: column;
+	      justify-content: flex-start;
+	      align-items: center;
+	  
+	      background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
+	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
+	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
+	  
+	      border-radius: 0.75rem;
+	      backdrop-filter: blur(100px);
+	      overflow: hidden;
+	      text-align: center;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card img {
+	      width: 100%;
+	      height: 60%; /* cover takes top space */
+	      object-fit: cover;
+	      border-bottom: 1px solid rgba(255,255,255,0.1);
+	    }
+	  
+	    #``c.identity.slot`` .glass-card .info {
+	      flex: 1;
+	      padding: 0.75rem;
+	      display: flex;
+	      flex-direction: column;
+	      justify-content: center;
+	      font-size: 0.9rem;
+	      font-weight: 300;
+	      line-height: 1.4rem;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card .info strong {
+	      color: color-mix(in srgb, var(--ls-link-text-hover-color) 80%, transparent);
+	      font-size: 1.1rem;
+	      font-weight: 600;
+	      margin-bottom: 0.4rem;
+	      display: block;
+	    }
+	  </style>
+	  
+	  ``{_
+	      var mode = c.args.block ? 'block' : 'page'
+	      var reference = mode === 'block' ? c.block.uuid : c.page.name_
+	  
+	      var title = when(c.args.title, dev.get(mode + c.args.title) || c.args.title)
+	      var author = when(c.args.author, dev.get(mode + c.args.author) || c.args.author)
+	      var rating = when(c.args.rating, dev.get(mode + c.args.rating) || c.args.rating)
+	      var recommend = when(c.args.recommend, dev.get(mode + c.args.recommend) || c.args.recommend)
+	  
+	      if (title && Array.isArray(title)) title = title[0]
+	      if (title && title.startsWith('[[') && title.endsWith(']]'))
+	          title = title.slice(2, -2)
+	  
+	      var markup
+	      if (!c.args.cover && mode === 'page') {
+	          const tree = top.logseq.api.get_page_blocks_tree(c.page.name)
+	          markup = tree[0].children[0].content || tree[1].content
+	      } else {
+	          markup = when(c.args.cover, dev.get(mode + c.args.cover) || c.args.cover)
+	      }
+	  
+	      var cover = ''
+	      if (markup) {
+	          [ cover ] = dev.links(markup)
+	          if (!cover) cover = dev.asset(markup)
+	      }
+	  _}``
+	  
+	  <div class="glass-card">
+	    ``{_ if (cover) { _}``
+	      <img src="``cover``"/>
+	    ``{ } _}``
+	  
+	    <div class="info">
+	      ``{_ if (title) { _}``
+	        <a data-on-click="clickRef" data-ref="``reference``">
+	          <strong>``title``</strong>
+	        </a>
+	      ``{ } _}``
+	  
+	      ``_ when(arg-info2,    '<div>by $1</div>') _``
+	      ``_ when(rating,    '<div>Rating: $1</div>') _``
+	      ``_ when(recommend, '<div>Recommended: $1</div>') _``
+	    </div>
+	  </div>
+	  ```
+- collapsed:: true
+	- ```jsx
+	  <style>
+	    #``c.identity.slot`` .glass-card {
 	      background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
 	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
 	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
