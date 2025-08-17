@@ -42,29 +42,32 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	    display: block;               /* make it block-level */
-	    width: 100% !important;       /* force full width of parent cell */
-	    box-sizing: border-box;       /* include padding in width */
-	    margin: 2px 0;                /* small spacing between cards */
+	    display: flex;                /* keep horizontal layout for image + info */
+	    width: 100%;                  /* fill parent cell */
+	    box-sizing: border-box;
+	    margin: 4px 0;                /* spacing between stacked cards */
 	    background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
 	    --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
 	    --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
 	    border-radius: 0.5rem;
 	    backdrop-filter: blur(100px);
+	    overflow: hidden;             /* prevent content overflow */
 	  }
 	  
 	  #``c.identity.slot`` .glass-card > div {
-	    display: block;               /* make inner div block too */
-	    width: 100% !important;       /* stretch inner content */
-	    margin: 0;                     /* remove spacing */
+	    display: flex;                /* keep inner flex for proper layout */
+	    flex: 1 1 auto;               /* stretch inner content to fill card */
+	    width: 100%;
+	    margin: 0;
 	    padding: 15px 0.75rem 0.75rem;
 	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
 	    border-radius: 0.5rem;
 	    box-sizing: border-box;
 	  }
 	  
-	  
 	  #``c.identity.slot`` .glass-card img {
+	    flex-shrink: 0;               /* prevent image from shrinking */
+	    margin-right: 12px;           /* spacing between image and text */
 	    ``when(c.args['cover-width'], 'width: $1; min-width: $1;')``
 	    ``when(c.args['cover-height'], 'height: $1; min-height: $1;')``
 	  }
@@ -76,7 +79,9 @@ icon:: 📝
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center;
+	    flex: 1;                      /* text takes remaining space */
 	  }
+	  
 	  
 	  </style>
 	  
