@@ -42,27 +42,27 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	    width: 100%;                 /* make the card fill the parent cell */
-	    display: flex;               /* allow inner div to stretch */
-	    justify-content: stretch;    /* stretch inner content horizontally */
+	    display: block;               /* make it block-level */
+	    width: 100% !important;       /* force full width of parent cell */
+	    box-sizing: border-box;       /* include padding in width */
+	    margin: 2px 0;                /* small spacing between cards */
 	    background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
 	    --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
 	    --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
 	    border-radius: 0.5rem;
 	    backdrop-filter: blur(100px);
-	    margin: 2px 0;               /* small vertical spacing between cards */
-	    box-sizing: border-box;
 	  }
 	  
 	  #``c.identity.slot`` .glass-card > div {
-	    flex: 1 1 auto;              /* make inner div stretch inside the card */
-	    width: 100%;
-	    margin: 0;
+	    display: block;               /* make inner div block too */
+	    width: 100% !important;       /* stretch inner content */
+	    margin: 0;                     /* remove spacing */
 	    padding: 15px 0.75rem 0.75rem;
 	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
 	    border-radius: 0.5rem;
 	    box-sizing: border-box;
 	  }
+	  
 	  
 	  #``c.identity.slot`` .glass-card img {
 	    ``when(c.args['cover-width'], 'width: $1; min-width: $1;')``
