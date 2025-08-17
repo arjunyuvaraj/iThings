@@ -35,6 +35,7 @@ icon:: 📝
   arg-info1:: @author
   arg-info2:: @category
   arg-info3:: @rating
+  arg-info4:: @recommendation
   arg-card-width::
   arg-cover-height::
   arg-cover-width::
@@ -143,6 +144,7 @@ icon:: 📝
 	                      ``_ when(info1, '<div class="pt-2 pb-1">$1</div>') _``
 	                      ``_ when(info2, '<div class="pt-1 pb-1">$1</div>') _``
 	                      ``_ when(info3, '<div class="pt-2"     >$1</div>') _``
+	                      ``_ when(info4, '<div class="pt-1"     >$1</div>') _``
 	              </div>``{ }   _}``
 	    </div>
 	  </div>
