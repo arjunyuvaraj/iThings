@@ -35,7 +35,7 @@ icon:: 📝
   arg-info1:: @author
   arg-info2:: @category
   arg-info3:: @rating
-  arg-info4:: @recommendation
+  arg-info4:: @recommend
   arg-card-width::
   arg-cover-height::
   arg-cover-width::
