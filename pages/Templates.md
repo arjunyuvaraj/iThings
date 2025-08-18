@@ -43,11 +43,9 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	      display: grid;
-	      grid-template-columns: 1fr 1fr;   /* two columns */
-	      grid-template-rows: auto auto auto; /* three rows */
-	      width: 100%;                      /* full width */
-	      max-width: 100%;                  /* avoid shrinking */
-	      height: auto;                     /* let content decide */
+	      grid-template-columns: 1fr 1fr;       /* 2 columns */
+	      grid-template-rows: auto auto auto;  /* 3 rows */
+	      width: 100%;                         /* full width */
 	      box-sizing: border-box;
 	      margin: 8px 0;
 	      border-radius: 0.5rem;
@@ -55,27 +53,16 @@ icon:: 📝
 	      overflow: hidden;
 	      padding: 12px;
 	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
-	    }
-	  
-	    #``c.identity.slot`` .glass-card img {
-	      grid-row: 1 / span 3;   /* let the cover take up all rows in col 1 if used */
-	      grid-column: 1;
-	      width: 100px;
-	      height: 140px;
-	      object-fit: cover;
-	      border-radius: 0.4rem;
-	      margin-right: 12px;
+	      gap: 6px;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .title {
-	      grid-column: 1 / span 2; /* title spans both columns */
+	      grid-column: 1 / span 2; /* span both columns */
 	      font-size: 1.3rem;
 	      font-weight: 600;
-	      margin-bottom: 6px;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .field {
-	      padding: 4px 0;
 	      font-size: 0.9rem;
 	    }
 	    #``c.identity.slot`` .glass-card .label {
@@ -85,16 +72,16 @@ icon:: 📝
 	  </style>
 	  
 	  <div class="glass-card">
-	      ``{_ if (title) { _}``
-	        <div class="title">
-	          <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
-	        </div>
-	      ``{ } _}``
+	    ``{_ if (title) { _}``
+	      <div class="title">
+	        <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
+	      </div>
+	    ``{ } _}``
 	  
-	      ``_ when(info1, '<div class="field"><span class="label">Author:</span> $1</div>') _``
-	      ``_ when(info3, '<div class="field"><span class="label">Rating:</span> $1</div>') _``
-	      ``_ when(info2, '<div class="field"><span class="label">Category:</span> $1</div>') _``
-	      ``_ when(info4, '<div class="field"><span class="label">Recommend:</span> $1</div>') _``
+	    ``_ when(info1, '<div class="field"><span class="label">Author:</span> $1</div>') _``
+	    ``_ when(info3, '<div class="field"><span class="label">Rating:</span> $1</div>') _``
+	    ``_ when(info2, '<div class="field"><span class="label">Category:</span> $1</div>') _``
+	    ``_ when(info4, '<div class="field"><span class="label">Recommend:</span> $1</div>') _``
 	  </div>
 	  
 	  ```
