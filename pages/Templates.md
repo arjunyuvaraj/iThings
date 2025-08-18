@@ -43,9 +43,9 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	      display: grid;
-	      grid-template-columns: 1fr 1fr;       /* 2 columns */
-	      grid-template-rows: auto auto auto;  /* 3 rows */
-	      width: 100%;                         /* full width */
+	      grid-template-columns: 120px 1fr;  /* left: cover, right: text */
+	      grid-template-rows: auto auto auto auto; /* title + 3 rows of info */
+	      width: 100%;
 	      box-sizing: border-box;
 	      margin: 8px 0;
 	      border-radius: 0.5rem;
@@ -54,17 +54,28 @@ icon:: 📝
 	      padding: 12px;
 	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
 	      gap: 6px;
+	      align-items: start;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card img {
+	      grid-row: 1 / span 4;  /* cover spans all rows on left */
+	      width: 100%;
+	      height: auto;
+	      border-radius: 0.4rem;
+	      object-fit: cover;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .title {
-	      grid-column: 1 / span 2; /* span both columns */
+	      grid-column: 2;
 	      font-size: 1.3rem;
 	      font-weight: 600;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .field {
+	      grid-column: 2;
 	      font-size: 0.9rem;
 	    }
+	  
 	    #``c.identity.slot`` .glass-card .label {
 	      font-weight: 600;
 	      margin-right: 4px;
