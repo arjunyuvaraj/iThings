@@ -94,13 +94,13 @@ icon:: 📝
 	          info2 = Array.isArray(info2) ? info2 : [info2]
 	        info2 = dev.toHTML(info2.join('\n'))
 	      }
-	     if (info3) {
-	        info3 = Array.isArray(info2) ? info3 : [info3]
-	        info3 = dev.toHTML(info3.join('\n'))
+	      if (info3) {
+	         info3 = Array.isArray(info3) ? info3 : [info3]
+	         info3 = dev.toHTML(info3.join('\n'))
 	      }
-	     if (info4) {
-	        info4 = Array.isArray(info4) ? info4 : [info4]
-	        info4 = dev.toHTML(info3.join('\n'))
+	      if (info4) {
+	         info4 = Array.isArray(info4) ? info4 : [info4]
+	         info4 = dev.toHTML(info4.join('\n'))
 	      }
 	  
 	      var markup
