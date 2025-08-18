@@ -131,27 +131,26 @@ icon:: 📝
 	                cover = dev.asset(markup)
 	      }
 	  _}``
-	  
 	  <div class="glass-card">
-	    <div class="flex items-center">
-	              <a data-on-click="clickRef" data-ref="``reference``">
-	                    ``{_ if (cover) {   _}``
-	                    <img src="``cover``"
-	                    ``_ when(c.args['cover-width'], 'width="$1"') _``
-	                    ``_ when(c.args['cover-height'], 'height="$1"') _``
-	                    />``{ }   _}``
-	              </a>
-	          </div>
+	    ``{_ if (cover) { _}``
+	      <a data-on-click="clickRef" data-ref="``reference``">
+	        <img src="``cover``"
+	          ``_ when(c.args['cover-width'], 'width="$1"') _``
+	          ``_ when(c.args['cover-height'], 'height="$1"') _``
+	        />
+	      </a>
+	    ``{ } _}``
+	  
 	    ``{_ if (title) { _}``
 	      <div class="title">
 	        <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
 	      </div>
 	    ``{ } _}``
 	  
-	    ``_ when(info1, '<div class="field"><strong class="label">Author:</strong> $1</div>') _``
-	    ``_ when(info3, '<div class="field"><strong class="label">Rating:</strong> $1</div>') _``
-	    ``_ when(info2, '<div class="field"><strong class="label">Category:</strong> $1</div>') _``
-	    ``_ when(info4, '<div class="field"><strong class="label">Recommend:</strong> $1</div>') _``
+	    <div class="field"><strong class="label">Author:</strong> ``_ when(info1, '$1') _``</div>
+	    <div class="field"><strong class="label">Rating:</strong> ``_ when(info3, '$1') _``</div>
+	    <div class="field"><strong class="label">Category:</strong> ``_ when(info2, '$1') _``</div>
+	    <div class="field"><strong class="label">Recommend:</strong> ``_ when(info4, '$1') _``</div>
 	  </div>
 	  
 	  
