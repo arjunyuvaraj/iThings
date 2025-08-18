@@ -78,17 +78,25 @@ icon:: 📝
 	      </div>
 	    ``{ } _}``
 	  
-	  ``_ when(info1, '<div class="field">Author: $1</div>') _``
-	  ``_ when(info3, '<div class="field">Rating: $1</div>') _``
-	  ``_ when(info2, '<div class="field">Category: $1</div>') _``
-	  ``_ when(info4, '<div class="field">Recommend: $1</div>') _``
+	    <div class="field">
+	      <span class="label">Author:</span>
+	      ``_ when(info1, '$1') _``
+	    </div>
 	  
+	    <div class="field">
+	      <span class="label">Rating:</span>
+	      ``_ when(info3, '$1') _``
+	    </div>
 	  
-	  </div>
+	    <div class="field">
+	      <span class="label">Category:</span>
+	      ``_ when(info2, '$1') _``
+	    </div>
 	  
-	  
-	  lass="field"><span class="label">Category:</span> $1</div>') _``
-	    ``_ when(info4, '<div class="field"><span class="label">Recommend:</span> $1</div>') _``
+	    <div class="field">
+	      <span class="label">Recommend:</span>
+	      ``_ when(info4, '$1') _``
+	    </div>
 	  </div>
 	  
 	  ```
