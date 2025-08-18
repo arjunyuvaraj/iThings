@@ -42,122 +42,59 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	    display: flex;                     /* keep image + text side by side */
-	    height: 300px;                      /* fixed height */
-	    box-sizing: border-box;
-	    margin: 4px 0;                      /* spacing between stacked cards */
-	    border-radius: 0.5rem;
-	    backdrop-filter: blur(100px);
-	    overflow: hidden;
-	  }
+	      display: grid;
+	      grid-template-columns: 1fr 1fr;   /* two columns */
+	      grid-template-rows: auto auto auto; /* three rows */
+	      width: 100%;                      /* full width */
+	      max-width: 100%;                  /* avoid shrinking */
+	      height: auto;                     /* let content decide */
+	      box-sizing: border-box;
+	      margin: 8px 0;
+	      border-radius: 0.5rem;
+	      backdrop-filter: blur(100px);
+	      overflow: hidden;
+	      padding: 12px;
+	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
+	    }
 	  
-	  #``c.identity.slot`` .glass-card > div {
-	    display: flex;
-	    flex: 1 1 auto;
-	    width: 100%;
-	    margin: 0;
-	    padding: 10px;
-	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
-	    border-radius: 0.5rem;
-	    box-sizing: border-box;
-	  }
+	    #``c.identity.slot`` .glass-card img {
+	      grid-row: 1 / span 3;   /* let the cover take up all rows in col 1 if used */
+	      grid-column: 1;
+	      width: 100px;
+	      height: 140px;
+	      object-fit: cover;
+	      border-radius: 0.4rem;
+	      margin-right: 12px;
+	    }
 	  
-	  #``c.identity.slot`` .glass-card img {
-	    flex-shrink: 0;
-	    width: 80px;                        /* fixed image size */
-	    height: 100px;
-	    margin-right: 12px;
-	    object-fit: cover;                  /* avoid image distortion */
-	  }
+	    #``c.identity.slot`` .glass-card .title {
+	      grid-column: 1 / span 2; /* title spans both columns */
+	      font-size: 1.3rem;
+	      font-weight: 600;
+	      margin-bottom: 6px;
+	    }
 	  
-	  #``c.identity.slot`` .glass-card .info {
-	    font-size: 0.9rem;
-	    font-weight: 300;
-	    line-height: 1.5rem;
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    flex: 1;                             /* take remaining space */
-	  }
-	  
-	  
-	  
-	  
+	    #``c.identity.slot`` .glass-card .field {
+	      padding: 4px 0;
+	      font-size: 0.9rem;
+	    }
+	    #``c.identity.slot`` .glass-card .label {
+	      font-weight: 600;
+	      margin-right: 4px;
+	    }
 	  </style>
 	  
-	  ``{_
-	      var mode = c.args.block ? 'block' : 'page'
-	      var reference = mode === 'block' ? c.block.uuid : c.page.name_
-	      
-	      var title = when(c.args.title, dev.get(mode + c.args.title) || c.args.title)
-	      var info1 = when(c.args.info1, dev.get(mode + c.args.info1) || c.args.info1)
-	      var info2 = when(c.args.info2, dev.get(mode + c.args.info2) || c.args.info2)
-	      var info3 = when(c.args.info3, dev.get(mode + c.args.info3) || c.args.info3)
-	      var info4 = when(c.args.info4, dev.get(mode + c.args.info4) || c.args.info4)
-	      
-	      if (title) {
-	          if (Array.isArray(title))
-	              title = title[0]
-	          if (title.startsWith('[[') && title.endsWith(']]'))
-	              title = title.slice(2, -2)
-	      }
-	      if (info1) {
-	          info1 = Array.isArray(info1) ? info1 : [info1]
-	        info1 = dev.toHTML(info1.join('\n'))
-	      }
-	      if (info2) {
-	          info2 = Array.isArray(info2) ? info2 : [info2]
-	        info2 = dev.toHTML(info2.join('\n'))
-	      }
-	     if (info3) {
-	          info3 = Array.isArray(info3) ? info3 : [info3]
-	        info3 = dev.toHTML(info3.join('\n'))
-	      }
-	     if (info4) {
-	          info4 = Array.isArray(info4) ? info4 : [info4]
-	        info4 = dev.toHTML(info4.join('\n'))
-	      }
-	  
-	      var markup
-	      if (!c.args.cover && mode === 'page') {
-	          const tree = top.logseq.api.get_page_blocks_tree(c.page.name)
-	          markup = tree[0].children[0].content
-	          if (!markup)
-	            markup = tree[1].content
-	      }
-	      else
-	          markup = when(c.args.cover, dev.get(mode + c.args.cover) || c.args.cover)
-	  
-	        var cover = ''
-	      if (markup) {
-	        [ cover ] = dev.links(markup)
-	        if (!cover)
-	                cover = dev.asset(markup)
-	      }
-	  _}``
-	  
 	  <div class="glass-card">
-	      <div class="flex">
-	          <div class="flex items-center">
-	              <a data-on-click="clickRef" data-ref="``reference``">
-	                    ``{_ if (cover) {   _}``
-	                    <img src="``cover``"
-	                    ``_ when(c.args['cover-width'], 'width="$1"') _``
-	                    ``_ when(c.args['cover-height'], 'height="$1"') _``
-	                    />``{ }   _}``
-	              </a>
-	          </div>
-	          ``{_ if (title || info1 || info2 || info3) {   _}``
-	              <div class="info flex-col px-3 opacity-80">
-	                  ``{_ if (title) {  _}``
-	                      <a data-on-click="clickRef" data-ref="``reference``">
-	                          <strong class="text-2xl font-medium">``title``</strong></a>``{ }   _}``
-	                      ``_ when(info1, '<div class="pt-2 pb-1"><strong class="font-medium">Author:</strong> $1</div>') _``
-	                      ``_ when(info2, '<div class="pt-1 pb-1"><strong class="font-medium">Category:</strong> $1</div>') _``
-	                      ``_ when(info3, '<div class="pt-2"     ><strong class="font-medium">Rating:</strong> $1</div>') _``
-	                      ``_ when(info4, '<div class="pt-2"     ><strong class="font-medium">Recommend:</strong> $1</div>') _``
-	              </div>``{ }   _}``
-	    </div>
+	      ``{_ if (title) { _}``
+	        <div class="title">
+	          <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
+	        </div>
+	      ``{ } _}``
+	  
+	      ``_ when(info1, '<div class="field"><span class="label">Author:</span> $1</div>') _``
+	      ``_ when(info3, '<div class="field"><span class="label">Rating:</span> $1</div>') _``
+	      ``_ when(info2, '<div class="field"><span class="label">Category:</span> $1</div>') _``
+	      ``_ when(info4, '<div class="field"><span class="label">Recommend:</span> $1</div>') _``
 	  </div>
 	  
 	  ```
