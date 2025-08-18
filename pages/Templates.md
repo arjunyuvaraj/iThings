@@ -122,6 +122,15 @@ icon:: 📝
 	  _}``
 	  
 	  <div class="glass-card">
+	    <div class="flex items-center">
+	              <a data-on-click="clickRef" data-ref="``reference``">
+	                    ``{_ if (cover) {   _}``
+	                    <img src="``cover``"
+	                    ``_ when(c.args['cover-width'], 'width="$1"') _``
+	                    ``_ when(c.args['cover-height'], 'height="$1"') _``
+	                    />``{ }   _}``
+	              </a>
+	          </div>
 	    ``{_ if (title) { _}``
 	      <div class="title">
 	        <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
