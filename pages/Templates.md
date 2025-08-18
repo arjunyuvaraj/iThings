@@ -84,6 +84,10 @@ icon:: 📝
 	    ``_ when(info4, '<div class="field"><span class="label">Recommend:</span> $1</div>') _``
 	  </div>
 	  
+	  lass="field"><span class="label">Category:</span> $1</div>') _``
+	    ``_ when(info4, '<div class="field"><span class="label">Recommend:</span> $1</div>') _``
+	  </div>
+	  
 	  ```
 -
 	- ```jsx
