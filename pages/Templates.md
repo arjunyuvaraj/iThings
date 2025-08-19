@@ -131,6 +131,7 @@ icon:: 📝
 	                cover = dev.asset(markup)
 	      }
 	  _}``
+	  <div class="flex">
 	  <div class="glass-card">
 	    ``{_ if (cover) { _}``
 	      <a data-on-click="clickRef" data-ref="``reference``">
@@ -151,6 +152,7 @@ icon:: 📝
 	    <div class="field"><strong class="label">Rating:</strong> ``_ when(info3, '$1') _``</div>
 	    <div class="field"><strong class="label">Category:</strong> ``_ when(info2, '$1') _``</div>
 	    <div class="field"><strong class="label">Recommend:</strong> ``_ when(info4, '$1') _``</div>
+	  </div>
 	  </div>
 	  
 	  <div class="flex">
