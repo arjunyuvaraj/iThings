@@ -4,7 +4,7 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 
 -
 	- {{renderer :reading-list, :pages [[Where the Road Leads Us]]}}
-	- {{renderer :template-view, glass-card, :title "August", :page [[Lost in the Sun]], [[Where the Road Leads Us]] }}
+	- {{renderer :reading-list, :title "August Reading List", :pages [[Lost in the Sun]], [[Where the Road Leads Us]] }}
 	-
 	-
 - [[Where the Road Leads Us]]
