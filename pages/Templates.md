@@ -104,38 +104,43 @@ icon:: 📝
 	  }
 	  </style>
 	  ``{_
+	    var title = c.args.title || "Reading List"
 	    var pages = c.args.pages || []
 	    var cards = ''
 	  
 	    for (let p of pages) {
-	      let title = p.replace(/\[\[|\]\]/g, '')  // strip [[ ]]
-	      let reference = title
+	      let pageName = p.replace(/\[\[|\]\]/g, '')
+	      let reference = pageName
 	  
-	      // get data for this page
+	      // Title
+	      let displayTitle = pageName
+	  
+	      // Try to fetch fields
+	      let info1 = dev.get('page' + pageName + 'info1') || ''
+	      let info2 = dev.get('page' + pageName + 'info2') || ''
+	      let info3 = dev.get('page' + pageName + 'info3') || ''
+	      let info4 = dev.get('page' + pageName + 'info4') || ''
+	  
+	      // Try to fetch cover (first block image or asset)
 	      let cover = ''
-	      let info1 = dev.get('page' + title + 'info1') || ''
-	      let info2 = dev.get('page' + title + 'info2') || ''
-	      let info3 = dev.get('page' + title + 'info3') || ''
-	      let info4 = dev.get('page' + title + 'info4') || ''
-	  
-	      // try to grab cover image from first block
-	      const tree = top.logseq.api.get_page_blocks_tree(title)
+	      const tree = top.logseq.api.get_page_blocks_tree(pageName)
 	      if (tree?.[0]) {
 	        let markup = tree[0].content
 	        let links = dev.links(markup)
 	        if (links?.[0]) cover = links[0]
+	        if (!cover) cover = dev.asset(markup)
 	      }
 	  
-	      // build one card
+	      // Build card
 	      cards += `
 	        <div class="glass-card">
 	          ${cover ? `<img src="${cover}"/>` : ''}
 	          <div class="info">
-	            <div class="title"><a data-on-click="clickRef" data-ref="${reference}">${title}</a></div>
-	            <div class="field"><span class="label">Author:</span> ${info1}</div>
-	            <div class="field"><span class="label">Category:</span> ${info2}</div>
-	            <div class="field"><span class="label">Rating:</span> ${info3}</div>
-	            <div class="field"><span class="label">Recommend:</span> ${info4}</div>
+	            <div class="title"><a data-on-click="clickRef" data-ref="${reference}">${displayTitle}</a></div>
+	            ${info1 ? `<div class="field"><span class="label">Author:</span> ${info1}</div>` : ''}
+	            ${info2 ? `<div class="field"><span class="label">Category:</span> ${info2}</div>` : ''}
+	            ${info3 ? `<div class="field"><span class="label">Rating:</span> ${info3}</div>` : ''}
+	            ${info4 ? `<div class="field"><span class="label">Recommend:</span> ${info4}</div>` : ''}
 	          </div>
 	        </div>
 	      `
@@ -143,33 +148,12 @@ icon:: 📝
 	  _}``
 	  
 	  <div class="reading-list">
-	    <div class="reading-list-title">``c.args.title``</div>
+	    <div class="reading-list-title">``title``</div>
 	    <div class="reading-grid">
 	      ``{_ cards _}``
 	    </div>
 	  </div>
 	  
-	  <div class="reading-list">
-	    <div class="reading-list-title">``c.args.title``</div>
-	    <div class="reading-grid">
-	      
-	      <div class="glass-card">
-	        ``{_ if (cover) { _}``
-	          <img src="``cover``" />
-	        ``{ } _}``
-	        <div class="info">
-	          <div class="title"><a data-on-click="clickRef" data-ref="``reference``">``title``</a></div>
-	          <div class="field"><span class="label">Author:</span> ``_ when(info1, '$1') _``</div>
-	          <div class="field"><span class="label">Category:</span> ``_ when(info2, '$1') _``</div>
-	          <div class="field"><span class="label">Rating:</span> ``_ when(info3, '$1') _``</div>
-	          <div class="field"><span class="label">Recommend:</span> ``_ when(info4, '$1') _``</div>
-	        </div>
-	      </div>
-	  
-	      <!-- repeat for other pages -->
-	  
-	    </div>
-	  </div>
 	  
 	  
 	  
