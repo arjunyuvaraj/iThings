@@ -43,19 +43,19 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	    display: grid;
-	    grid-template-columns: 120px 2fr 1fr 1fr 1fr; 
+	    grid-template-columns: 100px 2fr 1.5fr 1.5fr 1fr; 
 	    /* cover | title | author | category | rating/recommend */
 	    gap: 12px;
 	    width: 100%;
-	    padding: 12px;
-	    border-bottom: 1px solid rgba(255,255,255,0.1); /* divider line */
+	    padding: 8px 12px;  /* tighter spacing */
+	    border-bottom: 1px solid rgba(255,255,255,0.1);
 	    align-items: center;
 	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 70%, transparent);
 	  }
 	  
 	  #``c.identity.slot`` .glass-card img {
 	    width: 100%;
-	    max-width: 100px;
+	    max-width: 90px;
 	    border-radius: 0.4rem;
 	    object-fit: cover;
 	  }
@@ -64,17 +64,24 @@ icon:: 📝
 	    font-size: 1rem;
 	    font-weight: 600;
 	    color: var(--ls-primary-text-color);
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
 	  }
 	  
 	  #``c.identity.slot`` .glass-card .field {
 	    font-size: 0.9rem;
 	    color: var(--ls-secondary-text-color);
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
 	  }
 	  
 	  #``c.identity.slot`` .glass-card .label {
 	    font-weight: 600;
 	    margin-right: 4px;
 	  }
+	  
 	  
 	  </style>
 	  ``{_
