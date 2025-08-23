@@ -3,18 +3,6 @@ subject:: Reading, Books, English
 banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 
 -
-	- |{{renderer :template-view, glass-card, :page [[Where the Road Leads Us]] }} | {{renderer :template-view, glass-card, :page [[Lost in the Sun]] }} |
-	-
-	-
-	-
-	-
-	-
-- [[Where the Road Leads Us]]
-- [[Lost in the Sun]]
--
--
--
--
 -
 -
 -
@@ -71,6 +59,7 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	- Where the Road Leads Us by Robin Reul
 	  logseq.order-list-type:: number
 - ## June 2025
+  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  |Lost in the Sun|Lisa Graff|7.4/10|3.5/5|
@@ -92,7 +81,6 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
 	  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
 - ## August 2025
-  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  |Quests for Glory|Soman Chainani|7/10|2.5/5|
@@ -101,5 +89,8 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  |Long Way Down|Jason Reynolds|4.5/10|2.5/5|
 	  |Run With The Wind|Shion Miura|9.5/10|5/5|
 	  |Ready Player One|Ernest Cline|7.5/10|4.5/5|
-	- https://www.google.com
+	  |Ready Player Two|Ernest Cline| 6.5/10| 3.5/5|
+	  |Caraval|Stephanie Garber|8.7/10|4/5|
+	-
+	-
 	-
