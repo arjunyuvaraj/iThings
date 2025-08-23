@@ -103,59 +103,96 @@ icon:: 📝
 	    font-weight: 600;
 	  }
 	  </style>
+	  <style>
+	    #``c.identity.slot`` .reading-table {
+	      width: 100%;
+	      border-collapse: collapse;
+	    }
+	  
+	    #``c.identity.slot`` .reading-table td {
+	      vertical-align: top;
+	      width: 50%;
+	      padding: 0.5rem;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card {
+	      background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
+	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
+	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
+	      border-radius: 0.5rem;
+	      backdrop-filter: blur(100px);
+	    }
+	  
+	    #``c.identity.slot`` .glass-card > div {
+	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
+	      border-radius: 0.5rem;
+	      margin: 0.5px;
+	      padding: 10px;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card img {
+	      max-width: 80px;
+	      max-height: 120px;
+	      border-radius: 0.25rem;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card .info {
+	      font-size: 0.85rem;
+	      line-height: 1.3rem;
+	      margin-left: 0.75rem;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card .title {
+	      font-size: 1rem;
+	      font-weight: 600;
+	    }
+	  </style>
+	  
 	  ``{_
-	    var title = c.args.title || "Reading List"
-	    var pages = c.args.pages || []
-	    var cards = ''
+	    const pages = c.args.pages || []
+	    const title = c.args.title || ""
 	  
-	    for (let p of pages) {
-	      let pageName = p.replace(/\[\[|\]\]/g, '')
-	      let reference = pageName
-	  
-	      // --- replicate original cover extraction ---
-	      let markup
+	    function renderCard(pageName) {
 	      const tree = top.logseq.api.get_page_blocks_tree(pageName)
-	      if (tree?.[0]?.children?.[0]?.content) {
-	        markup = tree[0].children[0].content
-	      } else if (tree?.[1]?.content) {
-	        markup = tree[1].content
-	      }
+	      let markup = tree[0]?.children?.[0]?.content || tree[0]?.content
+	      let [cover] = markup ? dev.links(markup) : []
+	      if (!cover) cover = markup ? dev.asset(markup) : ""
 	  
-	      let cover = ''
-	      if (markup) {
-	        [cover] = dev.links(markup)
-	        if (!cover) cover = dev.asset(markup)
-	      }
+	      const props = top.logseq.api.get_page_properties(pageName) || {}
+	      const author = props["author"] || ""
+	      const category = props["category"] || ""
+	      const genre = props["genre"] || ""
 	  
-	      // --- get fields ---
-	      let info1 = dev.get('page' + pageName + 'info1') || ''
-	      let info2 = dev.get('page' + pageName + 'info2') || ''
-	      let info3 = dev.get('page' + pageName + 'info3') || ''
-	      let info4 = dev.get('page' + pageName + 'info4') || ''
-	  
-	      // --- build one card ---
-	      cards += `
+	      return `
 	        <div class="glass-card">
 	          <div class="flex">
-	            <div class="flex items-center">
-	              <a data-on-click="clickRef" data-ref="${reference}">
-	                ${cover ? `<img src="${cover}"/>` : ''}
-	              </a>
+	            <div>
+	              ${cover ? `<img src="${cover}"/>` : ""}
 	            </div>
-	            <div class="info flex-col px-3 opacity-80">
-	              <a data-on-click="clickRef" data-ref="${reference}">
-	                <strong class="text-2xl font-medium">${pageName}</strong>
-	              </a>
-	              ${info1 ? `<div class="pt-2 pb-1">Author: ${info1}</div>` : ''}
-	              ${info2 ? `<div class="pt-1 pb-1">Category: ${info2}</div>` : ''}
-	              ${info3 ? `<div class="pt-2">Rating: ${info3}</div>` : ''}
-	              ${info4 ? `<div class="pt-1">Recommend: ${info4}</div>` : ''}
+	            <div class="info">
+	              <div class="title">${pageName}</div>
+	              ${author ? `<div>Author: ${author}</div>` : ""}
+	              ${category ? `<div>Category: ${category}</div>` : ""}
+	              ${genre ? `<div>Genre: ${genre}</div>` : ""}
 	            </div>
 	          </div>
 	        </div>
 	      `
 	    }
+	  
+	    let rows = []
+	    for (let i = 0; i < pages.length; i += 2) {
+	      const left = renderCard(pages[i])
+	      const right = pages[i+1] ? renderCard(pages[i+1]) : ""
+	      rows.push(`<tr><td>${left}</td><td>${right}</td></tr>`)
+	    }
+	  
+	    _.markup = `
+	      <h2 style="margin-bottom:0.5rem;">${title}</h2>
+	      <table class="reading-table">${rows.join("")}</table>
+	    `
 	  _}``
+	  
 	  
 	  <div class="reading-list">
 	    <div class="reading-list-title">``title``</div>
