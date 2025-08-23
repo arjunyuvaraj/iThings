@@ -9,6 +9,7 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	-
 	-
 - [[Where the Road Leads Us]]
+- [[Lost in the Sun]]
 -
 -
 -

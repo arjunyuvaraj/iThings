@@ -35,7 +35,7 @@ icon:: 📝
   arg-info1:: @author
   arg-info2:: @category
   arg-info3:: @rating
-  arg-info4:: @recommend
+  arg-info4:: 
   arg-card-width:: 
   arg-cover-height::
   arg-cover-width::
@@ -122,7 +122,7 @@ icon:: 📝
 	      const props = page ? (page.properties || {}) : {}
 	      const author = props["author"] || ""
 	      const category = props["category"] || ""
-	      const genre = props["genre"] || ""
+	      const rating = props["rating"] || ""
 	  
 	      return `
 	        <div class="glass-card">
@@ -131,7 +131,7 @@ icon:: 📝
 	            <div class="title">${pageName}</div>
 	            ${author ? `<div class="field">Author: ${author}</div>` : ""}
 	            ${category ? `<div class="field">Category: ${category}</div>` : ""}
-	            ${genre ? `<div class="field">Genre: ${genre}</div>` : ""}
+	            ${rating ? `<div class="field">Rating: ${rating}</div>` : ""}
 	          </div>
 	        </div>
 	      `
