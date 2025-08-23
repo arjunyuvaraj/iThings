@@ -43,32 +43,30 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	      display: flex;
-	      width: 80%;             /* bigger card */
-	      max-width: 600px;       /* optional max size */
-	      min-width: 300px;       /* prevents too small */
+	      width: 50%;              /* card width */
+	      max-width: 500px;        /* optional max size */
 	      border-radius: 0.5rem;
 	      background: linear-gradient(to right bottom,
 	        color-mix(in srgb, var(--ls-primary-background-color) 35%, white) 25%,
 	        color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent)
 	      );
-	      backdrop-filter: blur(100px);
+	      backdrop-filter: blur(80px);
 	      overflow: hidden;
-	      margin: 1rem auto;      /* centers card */
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
-	      width: 220px;           /* bigger image */
-	      height: 220px;
+	      flex: 1;                 /* scales with card */
+	      max-width: 150px;        /* prevents huge image */
+	      height: auto;
 	      object-fit: cover;
 	      border-radius: 0.5rem 0 0 0.5rem;
-	      flex-shrink: 0;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .info {
-	      flex: 1;
-	      padding: 1rem 1.25rem;
-	      font-size: 1rem;
-	      line-height: 1.4rem;
+	      flex: 2;                 /* text gets more space */
+	      padding: 0.75rem 1rem;
+	      font-size: 1rem;         /* readable font */
+	      line-height: 1.3rem;
 	      font-weight: 400;
 	      overflow: hidden;
 	      white-space: nowrap;
@@ -77,7 +75,7 @@ icon:: 📝
 	  
 	    #``c.identity.slot`` .glass-card .info strong {
 	      display: block;
-	      font-size: 1.25rem;     /* bigger title */
+	      font-size: 1.25rem;      /* title slightly larger */
 	      font-weight: 600;
 	      white-space: nowrap;
 	      overflow: hidden;
