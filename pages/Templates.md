@@ -42,44 +42,44 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	      display: grid;
-	      grid-template-columns: 120px 1fr;  /* left: cover, right: text */
-	      grid-template-rows: auto auto auto auto; /* title + 3 rows of info */
-	      width: 100%;
-	      box-sizing: border-box;
-	      margin: 8px 0;
-	      border-radius: 0.5rem;
-	      backdrop-filter: blur(100px);
-	      overflow: hidden;
-	      padding: 12px;
-	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
-	      gap: 6px;
-	      align-items: start;
-	    }
+	    display: grid;
+	    grid-template-columns: 120px 1fr;   /* cover | content */
+	    gap: 12px;
+	    width: 100%;
+	    margin: 12px 0;
+	    padding: 16px;
+	    border-radius: 0.75rem;
+	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 70%, transparent);
+	    backdrop-filter: blur(12px);
+	    align-items: start;
+	    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	  }
 	  
-	    #``c.identity.slot`` .glass-card img {
-	      grid-row: 1 / span 4;  /* cover spans all rows on left */
-	      width: 100%;
-	      height: auto;
-	      border-radius: 0.4rem;
-	      object-fit: cover;
-	    }
+	  #``c.identity.slot`` .glass-card img {
+	    grid-row: span 5;  /* cover spans all rows */
+	    width: 100%;
+	    height: auto;
+	    border-radius: 0.5rem;
+	    object-fit: cover;
+	  }
 	  
-	    #``c.identity.slot`` .glass-card .title {
-	      grid-column: 2;
-	      font-size: 1.3rem;
-	      font-weight: 600;
-	    }
+	  #``c.identity.slot`` .glass-card .title {
+	    font-size: 1.4rem;
+	    font-weight: 700;
+	    margin-bottom: 8px;
+	    color: var(--ls-primary-text-color);
+	  }
 	  
-	    #``c.identity.slot`` .glass-card .field {
-	      grid-column: 2;
-	      font-size: 0.9rem;
-	    }
+	  #``c.identity.slot`` .glass-card .field {
+	    font-size: 0.95rem;
+	    margin: 2px 0;
+	    color: var(--ls-secondary-text-color);
+	  }
 	  
-	    #``c.identity.slot`` .glass-card .label {
-	      font-weight: 600;
-	      margin-right: 4px;
-	    }
+	  #``c.identity.slot`` .glass-card .label {
+	    font-weight: 600;
+	    color: var(--ls-primary-text-color);
+	  }
 	  </style>
 	  ``{_
 	      var mode = c.args.block ? 'block' : 'page'
@@ -131,28 +131,25 @@ icon:: 📝
 	                cover = dev.asset(markup)
 	      }
 	  _}``
-	  <div class="flex">
-	          <div class="flex items-center">
-	              <a data-on-click="clickRef" data-ref="``reference``">
-	                    ``{_ if (cover) {   _}``
-	                    <img src="``cover``"
-	                    ``_ when(c.args['cover-width'], 'width="$1"') _``
-	                    ``_ when(c.args['cover-height'], 'height="$1"') _``
-	                    />``{ }   _}``
-	              </a>
-	          </div>
-	          ``{_ if (title) { _}``
-	      		<div class="title">
-	  	        	<a data-on-click="clickRef" data-ref="``reference``">``title``</a>
-	              </div>
-	  	    ``{ } _}``
+	  <div class="glass-card">
+	    <a data-on-click="clickRef" data-ref="``reference``">
+	      ``{_ if (cover) { _}``
+	        <img src="``cover``" />
+	      ``{ } _}``
+	    </a>
 	  
-	    <div class="field"><strong class="label">Author:</strong> ``_ when(info1, '$1') _``</div>
-	    <div class="field"><strong class="label">Rating:</strong> ``_ when(info3, '$1') _``</div>
-	    <div class="field"><strong class="label">Category:</strong> ``_ when(info2, '$1') _``</div>
-	    <div class="field"><strong class="label">Recommend:</strong> ``_ when(info4, '$1') _``</div>
-	    </div>
+	    ``{_ if (title) { _}``
+	      <div class="title">
+	        <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
+	      </div>
+	    ``{ } _}``
+	  
+	    <div class="field"><span class="label">Author:</span> ``_ when(info1, '$1') _``</div>
+	    <div class="field"><span class="label">Category:</span> ``_ when(info2, '$1') _``</div>
+	    <div class="field"><span class="label">Rating:</span> ``_ when(info3, '$1') _``</div>
+	    <div class="field"><span class="label">Recommend:</span> ``_ when(info4, '$1') _``</div>
 	  </div>
+	  
 	  
 	  
 	  ```
