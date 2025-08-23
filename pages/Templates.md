@@ -112,35 +112,45 @@ icon:: 📝
 	      let pageName = p.replace(/\[\[|\]\]/g, '')
 	      let reference = pageName
 	  
-	      // Title
-	      let displayTitle = pageName
+	      // --- replicate original cover extraction ---
+	      let markup
+	      const tree = top.logseq.api.get_page_blocks_tree(pageName)
+	      if (tree?.[0]?.children?.[0]?.content) {
+	        markup = tree[0].children[0].content
+	      } else if (tree?.[1]?.content) {
+	        markup = tree[1].content
+	      }
 	  
-	      // Try to fetch fields
+	      let cover = ''
+	      if (markup) {
+	        [cover] = dev.links(markup)
+	        if (!cover) cover = dev.asset(markup)
+	      }
+	  
+	      // --- get fields ---
 	      let info1 = dev.get('page' + pageName + 'info1') || ''
 	      let info2 = dev.get('page' + pageName + 'info2') || ''
 	      let info3 = dev.get('page' + pageName + 'info3') || ''
 	      let info4 = dev.get('page' + pageName + 'info4') || ''
 	  
-	      // Try to fetch cover (first block image or asset)
-	      let cover = ''
-	      const tree = top.logseq.api.get_page_blocks_tree(pageName)
-	      if (tree?.[0]) {
-	        let markup = tree[0].content
-	        let links = dev.links(markup)
-	        if (links?.[0]) cover = links[0]
-	        if (!cover) cover = dev.asset(markup)
-	      }
-	  
-	      // Build card
+	      // --- build one card ---
 	      cards += `
 	        <div class="glass-card">
-	          ${cover ? `<img src="${cover}"/>` : ''}
-	          <div class="info">
-	            <div class="title"><a data-on-click="clickRef" data-ref="${reference}">${displayTitle}</a></div>
-	            ${info1 ? `<div class="field"><span class="label">Author:</span> ${info1}</div>` : ''}
-	            ${info2 ? `<div class="field"><span class="label">Category:</span> ${info2}</div>` : ''}
-	            ${info3 ? `<div class="field"><span class="label">Rating:</span> ${info3}</div>` : ''}
-	            ${info4 ? `<div class="field"><span class="label">Recommend:</span> ${info4}</div>` : ''}
+	          <div class="flex">
+	            <div class="flex items-center">
+	              <a data-on-click="clickRef" data-ref="${reference}">
+	                ${cover ? `<img src="${cover}"/>` : ''}
+	              </a>
+	            </div>
+	            <div class="info flex-col px-3 opacity-80">
+	              <a data-on-click="clickRef" data-ref="${reference}">
+	                <strong class="text-2xl font-medium">${pageName}</strong>
+	              </a>
+	              ${info1 ? `<div class="pt-2 pb-1">Author: ${info1}</div>` : ''}
+	              ${info2 ? `<div class="pt-1 pb-1">Category: ${info2}</div>` : ''}
+	              ${info3 ? `<div class="pt-2">Rating: ${info3}</div>` : ''}
+	              ${info4 ? `<div class="pt-1">Recommend: ${info4}</div>` : ''}
+	            </div>
 	          </div>
 	        </div>
 	      `
@@ -149,9 +159,7 @@ icon:: 📝
 	  
 	  <div class="reading-list">
 	    <div class="reading-list-title">``title``</div>
-	    <div class="reading-grid">
-	      ``{_ cards _}``
-	    </div>
+	    <div class="reading-grid">``{_ cards _}``</div>
 	  </div>
 	  
 	  
