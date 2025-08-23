@@ -1,6 +1,6 @@
 author:: [[Robin Reul]]
 name:: [[Where the Road Leads Us]]
-category:: [[📖/Young Adult Fiction]]
+genres::  [[📖/Road Fiction]]
 rating:: 9.5/10
 recommend:: 5/5
 
