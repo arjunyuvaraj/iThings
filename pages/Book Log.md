@@ -26,7 +26,6 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  | [[Book/Patron Saints of Nothing]] |Randy Ribay|8.7/10|4.5/5|
 	-
 - ## July 2025
-  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  |The Naturals|Jennifer Lynn Barnes|9.5/10|4/5|
@@ -39,7 +38,6 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  |A World Without Princes|Soman Chainani|6.5/10|2.5/5|
 	  |The Last Ever After|Soman Chainani|6.5/10|2.5/5|
 - ## August 2025
-  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  |Quests for Glory|Soman Chainani|7/10|2.5/5|
