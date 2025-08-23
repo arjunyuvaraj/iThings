@@ -43,43 +43,39 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	    display: grid;
-	    grid-template-columns: 120px 1fr;   /* cover | content */
+	    grid-template-columns: 120px 2fr 1fr 1fr 1fr; 
+	    /* cover | title | author | category | rating/recommend */
 	    gap: 12px;
 	    width: 100%;
-	    margin: 12px 0;
-	    padding: 16px;
-	    border-radius: 0.75rem;
+	    padding: 12px;
+	    border-bottom: 1px solid rgba(255,255,255,0.1); /* divider line */
+	    align-items: center;
 	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 70%, transparent);
-	    backdrop-filter: blur(12px);
-	    align-items: start;
-	    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 	  }
 	  
 	  #``c.identity.slot`` .glass-card img {
-	    grid-row: span 5;  /* cover spans all rows */
 	    width: 100%;
-	    height: auto;
-	    border-radius: 0.5rem;
+	    max-width: 100px;
+	    border-radius: 0.4rem;
 	    object-fit: cover;
 	  }
 	  
 	  #``c.identity.slot`` .glass-card .title {
-	    font-size: 1.4rem;
-	    font-weight: 700;
-	    margin-bottom: 8px;
+	    font-size: 1rem;
+	    font-weight: 600;
 	    color: var(--ls-primary-text-color);
 	  }
 	  
 	  #``c.identity.slot`` .glass-card .field {
-	    font-size: 0.95rem;
-	    margin: 2px 0;
+	    font-size: 0.9rem;
 	    color: var(--ls-secondary-text-color);
 	  }
 	  
 	  #``c.identity.slot`` .glass-card .label {
 	    font-weight: 600;
-	    color: var(--ls-primary-text-color);
+	    margin-right: 4px;
 	  }
+	  
 	  </style>
 	  ``{_
 	      var mode = c.args.block ? 'block' : 'page'
@@ -138,17 +134,16 @@ icon:: 📝
 	      ``{ } _}``
 	    </a>
 	  
-	    ``{_ if (title) { _}``
-	      <div class="title">
-	        <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
-	      </div>
-	    ``{ } _}``
+	    <div class="title">
+	      <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
+	    </div>
 	  
 	    <div class="field"><span class="label">Author:</span> ``_ when(info1, '$1') _``</div>
 	    <div class="field"><span class="label">Category:</span> ``_ when(info2, '$1') _``</div>
-	    <div class="field"><span class="label">Rating:</span> ``_ when(info3, '$1') _``</div>
-	    <div class="field"><span class="label">Recommend:</span> ``_ when(info4, '$1') _``</div>
+	    <div class="field"><span class="label">Rating:</span> ``_ when(info3, '$1') _``<br>
+	                       <span class="label">Rec:</span> ``_ when(info4, '$1') _``</div>
 	  </div>
+	  
 	  
 	  
 	  
