@@ -60,7 +60,7 @@ icon:: 📝
 	  
 	    #``c.identity.slot`` .glass-card > div > div {
 	      /* compatibility with Bullet Threading plugin */
-	      height: 100px !important;
+	      height: auto !important;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
