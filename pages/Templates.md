@@ -63,7 +63,7 @@ icon:: 📝
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .info {
-	      flex-grow: 1;             /* takes all remaining space */
+	      flex-grow: 2;             /* takes all remaining space */
 	      padding: 0.75rem 1rem;
 	      font-size: 1rem;          
 	      line-height: 1.3rem;
