@@ -43,8 +43,8 @@ icon:: 📝
 	  <style>
 	    #``c.identity.slot`` .glass-card {
 	      display: flex;
-	      width: 60%;               /* slightly wider card */
-	      max-width: 600px;         
+	      width: 60%;               /* card width */
+	      max-width: 650px;         
 	      border-radius: 0.5rem;
 	      background: linear-gradient(to right bottom,
 	        color-mix(in srgb, var(--ls-primary-background-color) 35%, white) 25%,
@@ -55,18 +55,17 @@ icon:: 📝
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
-	      width: 150px;             /* fixed cover size */
-	      height: auto;
+	      width: 180px;             /* slightly bigger cover */
+	  	height: 100%;
 	      object-fit: cover;
 	      border-radius: 0.5rem 0 0 0.5rem;
-	      flex-shrink: 0;           /* prevents shrinking */
+	      flex-shrink: 1;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .info {
-	      flex-grow: 2;             /* takes all remaining space */
-	      padding: 0.75rem 1rem;
-	      font-size: 1rem;          
-	      line-height: 1.3rem;
+	      flex-grow: 3;             /* takes remaining space */
+	      padding: 1rem 1.25rem;    /* more padding */
+	      line-height: 1.5rem;
 	      font-weight: 400;
 	      overflow: hidden;
 	      white-space: nowrap;
@@ -75,7 +74,7 @@ icon:: 📝
 	  
 	    #``c.identity.slot`` .glass-card .info strong {
 	      display: block;
-	      font-size: 1.25rem;       
+	      font-size: 1.5rem;        /* larger title */
 	      font-weight: 600;
 	      white-space: nowrap;
 	      overflow: hidden;
