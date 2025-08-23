@@ -44,22 +44,23 @@ icon:: 📝
 	    #``c.identity.slot`` .glass-card {
 	      display: inline-flex;
 	      vertical-align: top;
-	      width: 300px;
+	      width: 300px;              /* fixed card width */
+	      height: 180px;             /* fixed card height */
 	      border-radius: 0.5rem;
 	      background: linear-gradient(
 	        to right bottom,
-	        rgba(30, 30, 30, 0.85),   /* dark glass */
-	        rgba(50, 50, 50, 0.7)     /* subtle gradient */
+	        rgba(30,30,30,0.85),
+	        rgba(50,50,50,0.7)
 	      );
 	      backdrop-filter: blur(80px);
 	      overflow: hidden;
 	      margin: 0.5rem;
-	      box-shadow: 0 4px 10px rgba(0,0,0,0.3);  /* stronger shadow for contrast */
+	      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
-	      width: 120px;
-	      height: auto;
+	      height: 100%;              /* fills card height */
+	      aspect-ratio: 1 / 1;       /* keeps image square */
 	      object-fit: cover;
 	      border-radius: 0.5rem 0 0 0.5rem;
 	      flex-shrink: 0;
@@ -68,10 +69,10 @@ icon:: 📝
 	    #``c.identity.slot`` .glass-card .info {
 	      flex-grow: 1;
 	      padding: 0.75rem 1rem;
-	      font-size: 1rem;
-	      line-height: 1.3rem;
+	      font-size: 1.1rem;
+	      line-height: 1.4rem;
 	      font-weight: 400;
-	      color: #eee;  /* light text for dark background */
+	      color: #eee;
 	      overflow: hidden;
 	      white-space: nowrap;
 	      text-overflow: ellipsis;
@@ -79,12 +80,12 @@ icon:: 📝
 	  
 	    #``c.identity.slot`` .glass-card .info strong {
 	      display: block;
-	      font-size: 1.25rem;
+	      font-size: 1.5rem;
 	      font-weight: 600;
 	      white-space: nowrap;
 	      overflow: hidden;
 	      text-overflow: ellipsis;
-	      color: #fff;  /* title stands out */
+	      color: #fff;
 	    }
 	  </style>
 	  
