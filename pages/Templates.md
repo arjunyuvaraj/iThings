@@ -56,6 +56,7 @@ icon:: 📝
 	      padding: 15px 0.75rem 0.75rem;
 	      ``when(c.args['card-width'], 'min-width: $1;')``
 	      ``when(c.args['card-width'], 'max-width: $1;')``
+	      height: auto !important;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card > div > div {
