@@ -41,16 +41,32 @@ icon:: 📝
   arg-cover-width::
 	- ```jsx
 	  <style>
-	    #``c.identity.slot`` .glass-card {
-	    display: grid;
-	    grid-template-columns: 100px 2fr 1.5fr 1.5fr 1fr; 
-	    /* cover | title | author | category | rating/recommend */
-	    gap: 12px;
+	    #``c.identity.slot`` .reading-list {
 	    width: 100%;
-	    padding: 8px 12px;  /* tighter spacing */
-	    border-bottom: 1px solid rgba(255,255,255,0.1);
-	    align-items: center;
+	    margin: 16px 0;
+	  }
+	  
+	  #``c.identity.slot`` .reading-list-title {
+	    text-align: center;
+	    font-size: 1.3rem;
+	    font-weight: 700;
+	    margin-bottom: 12px;
+	  }
+	  
+	  #``c.identity.slot`` .reading-grid {
+	    display: grid;
+	    grid-template-columns: 1fr 1fr; /* 2 cards per row */
+	    gap: 16px;
+	  }
+	  
+	  #``c.identity.slot`` .glass-card {
+	    display: grid;
+	    grid-template-columns: 100px 1fr; /* cover | details */
+	    gap: 10px;
+	    padding: 10px;
+	    border-radius: 0.5rem;
 	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 70%, transparent);
+	    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 	  }
 	  
 	  #``c.identity.slot`` .glass-card img {
@@ -60,18 +76,24 @@ icon:: 📝
 	    object-fit: cover;
 	  }
 	  
+	  #``c.identity.slot`` .glass-card .info {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	  }
+	  
 	  #``c.identity.slot`` .glass-card .title {
 	    font-size: 1rem;
 	    font-weight: 600;
-	    color: var(--ls-primary-text-color);
+	    margin-bottom: 4px;
 	    white-space: nowrap;
 	    overflow: hidden;
 	    text-overflow: ellipsis;
 	  }
 	  
 	  #``c.identity.slot`` .glass-card .field {
-	    font-size: 0.9rem;
-	    color: var(--ls-secondary-text-color);
+	    font-size: 0.85rem;
+	    margin: 1px 0;
 	    white-space: nowrap;
 	    overflow: hidden;
 	    text-overflow: ellipsis;
@@ -79,10 +101,7 @@ icon:: 📝
 	  
 	  #``c.identity.slot`` .glass-card .label {
 	    font-weight: 600;
-	    margin-right: 4px;
 	  }
-	  
-	  
 	  </style>
 	  ``{_
 	      var mode = c.args.block ? 'block' : 'page'
@@ -134,23 +153,28 @@ icon:: 📝
 	                cover = dev.asset(markup)
 	      }
 	  _}``
-	  <div class="glass-card">
-	    <a data-on-click="clickRef" data-ref="``reference``">
-	      ``{_ if (cover) { _}``
-	        <img src="``cover``" />
-	      ``{ } _}``
-	    </a>
+	  <div class="reading-list">
+	    <div class="reading-list-title">``c.args.title``</div>
+	    <div class="reading-grid">
+	      
+	      <div class="glass-card">
+	        ``{_ if (cover) { _}``
+	          <img src="``cover``" />
+	        ``{ } _}``
+	        <div class="info">
+	          <div class="title"><a data-on-click="clickRef" data-ref="``reference``">``title``</a></div>
+	          <div class="field"><span class="label">Author:</span> ``_ when(info1, '$1') _``</div>
+	          <div class="field"><span class="label">Category:</span> ``_ when(info2, '$1') _``</div>
+	          <div class="field"><span class="label">Rating:</span> ``_ when(info3, '$1') _``</div>
+	          <div class="field"><span class="label">Recommend:</span> ``_ when(info4, '$1') _``</div>
+	        </div>
+	      </div>
 	  
-	    <div class="title">
-	      <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
-	    </div>
+	      <!-- repeat for other pages -->
 	  
-	    <div class="field">``_ when(info1, '$1') _``</div>
-	    <div class="field">``_ when(info2, '$1') _``</div>
-	    <div class="field">
-	      ``_ when(info3, '$1') _`` / ``_ when(info4, '$1') _``
 	    </div>
 	  </div>
+	  
 	  
 	  
 	  
