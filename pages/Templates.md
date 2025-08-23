@@ -42,41 +42,44 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	      background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
-	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
-	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
+	      display: flex;
+	      width: 50%;
+	      max-width: 50%;
 	      border-radius: 0.5rem;
+	      background: linear-gradient(to right bottom,
+	        color-mix(in srgb, var(--ls-primary-background-color) 35%, white) 25%,
+	        color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent)
+	      );
 	      backdrop-filter: blur(100px);
-	    }
-	  
-	    #``c.identity.slot`` .glass-card > div {
-	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
-	      border-radius: 0.5rem;
-	      margin: 0.5px;
-	      padding: 15px 0.75rem 0.75rem;
-	      ``when(c.args['card-width'], 'min-width: $1;')``
-	      ``when(c.args['card-width'], 'max-width: $1;')``
-	      height: auto !important;
-	    }
-	  
-	    #``c.identity.slot`` .glass-card > div > div {
-	      /* compatibility with Bullet Threading plugin */
-	      height: auto !important;
+	      overflow: hidden;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
-	      ``when(c.args['cover-width'], 'width: $1; min-width: $1;')``
-	      ``when(c.args['cover-height'], 'height: $1; min-height: $1;')``
-	    }
-	  
-	    #``c.identity.slot`` .glass-card div > a > strong {
-	      color: color-mix(in srgb, var(--ls-link-text-hover-color) 80%, transparent);
+	      width: 100px;        /* fixed width */
+	      height: 100px;       /* fixed height, proportional */
+	      object-fit: cover;
+	      border-radius: 0.5rem 0 0 0.5rem;
+	      flex-shrink: 0;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .info {
-	      font-size: 0.9rem;
+	      flex: 1;
+	      padding: 0.5rem;
+	      font-size: 0.85rem;
+	      line-height: 1.2rem;
 	      font-weight: 300;
-	      line-height: 1.5rem;
+	      overflow: hidden;
+	      white-space: nowrap;
+	      text-overflow: ellipsis; /* adds .. if too long */
+	    }
+	  
+	    #``c.identity.slot`` .glass-card .info strong {
+	      display: block;
+	      font-size: 1rem;
+	      font-weight: 500;
+	      white-space: nowrap;
+	      overflow: hidden;
+	      text-overflow: ellipsis;
 	    }
 	  </style>
 	  
@@ -127,27 +130,17 @@ icon:: 📝
 	  _}``
 	  
 	  <div class="glass-card">
-	      <div class="flex">
-	          <div class="flex items-center">
-	              <a data-on-click="clickRef" data-ref="``reference``">
-	                    ``{_ if (cover) {   _}``
-	                    <img src="``cover``"
-	                    ``_ when(c.args['cover-width'], 'width="$1"') _``
-	                    ``_ when(c.args['cover-height'], 'height="$1"') _``
-	                    />``{ }   _}``
-	              </a>
-	          </div>
-	          ``{_ if (title || info1 || info2 || info3) {   _}``
-	              <div class="info flex-col px-3 opacity-80">
-	                  ``{_ if (title) {  _}``
-	                      <a data-on-click="clickRef" data-ref="``reference``">
-	                          <strong class="text-2xl font-medium">``title``</strong></a>``{ }   _}``
-	                      ``_ when(info1, '<div class="pt-2 pb-1">$1</div>') _``
-	                      ``_ when(info2, '<div class="pt-1 pb-1">$1</div>') _``
-	                      ``_ when(info3, '<div class="pt-2"     >$1</div>') _``
-	                      ``_ when(info4, '<div class="pt-1"     >$1</div>') _``
-	              </div>``{ }   _}``
-	            </div>
+	    <a data-on-click="clickRef" data-ref="``reference``">
+	      ``{_ if (cover) { _}``
+	      <img src="``cover``"/>
+	      ``{ } _}``
+	    </a>
+	    <div class="info">
+	      ``_ when(title, '<strong>$1</strong>') _``
+	      ``_ when(info1, '<div>$1</div>') _``
+	      ``_ when(info2, '<div>$1</div>') _``
+	      ``_ when(info3, '<div>$1</div>') _``
+	    </div>
 	  </div>
 	  ```
 -
