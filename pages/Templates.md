@@ -37,7 +37,7 @@ icon:: 📝
   arg-info3:: @rating
   arg-info4:: 
   arg-card-width:: 
-  arg-cover-height::
+  arg-cover-height:: 
   arg-cover-width::
 	- ```jsx
 	  <style>
@@ -60,7 +60,7 @@ icon:: 📝
 	  
 	    #``c.identity.slot`` .glass-card > div > div {
 	      /* compatibility with Bullet Threading plugin */
-	      height: auto !important;
+	      height: 100px !important;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
@@ -146,7 +146,7 @@ icon:: 📝
 	                      ``_ when(info3, '<div class="pt-2"     >$1</div>') _``
 	                      ``_ when(info4, '<div class="pt-1"     >$1</div>') _``
 	              </div>``{ }   _}``
-	    </div>
+	            </div>
 	  </div>
 	  ```
 -
