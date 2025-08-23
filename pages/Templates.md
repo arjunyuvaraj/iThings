@@ -42,68 +42,17 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .reading-list {
-	    width: 100%;
-	    margin: 16px 0;
-	  }
+	      width: 100%;
+	      margin: 16px 0;
+	    }
 	  
-	  #``c.identity.slot`` .reading-list-title {
-	    text-align: center;
-	    font-size: 1.3rem;
-	    font-weight: 700;
-	    margin-bottom: 12px;
-	  }
+	    #``c.identity.slot`` .reading-list-title {
+	      text-align: center;
+	      font-size: 1.3rem;
+	      font-weight: 700;
+	      margin-bottom: 12px;
+	    }
 	  
-	  #``c.identity.slot`` .reading-grid {
-	    display: grid;
-	    grid-template-columns: 1fr 1fr; /* 2 cards per row */
-	    gap: 16px;
-	  }
-	  
-	  #``c.identity.slot`` .glass-card {
-	    display: grid;
-	    grid-template-columns: 100px 1fr; /* cover | details */
-	    gap: 10px;
-	    padding: 10px;
-	    border-radius: 0.5rem;
-	    background-color: color-mix(in srgb, var(--ls-primary-background-color) 70%, transparent);
-	    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-	  }
-	  
-	  #``c.identity.slot`` .glass-card img {
-	    width: 100%;
-	    max-width: 90px;
-	    border-radius: 0.4rem;
-	    object-fit: cover;
-	  }
-	  
-	  #``c.identity.slot`` .glass-card .info {
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	  }
-	  
-	  #``c.identity.slot`` .glass-card .title {
-	    font-size: 1rem;
-	    font-weight: 600;
-	    margin-bottom: 4px;
-	    white-space: nowrap;
-	    overflow: hidden;
-	    text-overflow: ellipsis;
-	  }
-	  
-	  #``c.identity.slot`` .glass-card .field {
-	    font-size: 0.85rem;
-	    margin: 1px 0;
-	    white-space: nowrap;
-	    overflow: hidden;
-	    text-overflow: ellipsis;
-	  }
-	  
-	  #``c.identity.slot`` .glass-card .label {
-	    font-weight: 600;
-	  }
-	  </style>
-	  <style>
 	    #``c.identity.slot`` .reading-table {
 	      width: 100%;
 	      border-collapse: collapse;
@@ -116,35 +65,46 @@ icon:: 📝
 	    }
 	  
 	    #``c.identity.slot`` .glass-card {
-	      background-image: linear-gradient(to right bottom, var(--gradient-from), 25%, var(--gradient-to));
+	      display: grid;
+	      grid-template-columns: 80px 1fr; /* cover | info */
+	      gap: 10px;
+	      padding: 10px;
+	      border-radius: 0.5rem;
+	      background-image: linear-gradient(to right bottom, var(--gradient-from), var(--gradient-to));
 	      --gradient-from: color-mix(in srgb, var(--ls-primary-background-color) 35%, white);
 	      --gradient-to: color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent);
-	      border-radius: 0.5rem;
 	      backdrop-filter: blur(100px);
-	    }
-	  
-	    #``c.identity.slot`` .glass-card > div {
-	      background-color: color-mix(in srgb, var(--ls-primary-background-color) 50%, transparent);
-	      border-radius: 0.5rem;
-	      margin: 0.5px;
-	      padding: 10px;
+	      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
-	      max-width: 80px;
-	      max-height: 120px;
+	      max-width: 70px;
+	      max-height: 110px;
 	      border-radius: 0.25rem;
+	      object-fit: cover;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .info {
+	      display: flex;
+	      flex-direction: column;
+	      justify-content: center;
 	      font-size: 0.85rem;
-	      line-height: 1.3rem;
-	      margin-left: 0.75rem;
+	      line-height: 1.2rem;
 	    }
 	  
 	    #``c.identity.slot`` .glass-card .title {
 	      font-size: 1rem;
 	      font-weight: 600;
+	      margin-bottom: 3px;
+	      white-space: nowrap;
+	      overflow: hidden;
+	      text-overflow: ellipsis;
+	    }
+	  
+	    #``c.identity.slot`` .glass-card .field {
+	      white-space: nowrap;
+	      overflow: hidden;
+	      text-overflow: ellipsis;
 	    }
 	  </style>
 	  
@@ -158,24 +118,20 @@ icon:: 📝
 	      let [cover] = markup ? dev.links(markup) : []
 	      if (!cover) cover = markup ? dev.asset(markup) : ""
 	  
-	  	const page = top.logseq.api.get_page(pageName)
-	  	const props = page ? (page.properties || {}) : {}
+	      const page = top.logseq.api.get_page(pageName)
+	      const props = page ? (page.properties || {}) : {}
 	      const author = props["author"] || ""
 	      const category = props["category"] || ""
 	      const genre = props["genre"] || ""
 	  
 	      return `
 	        <div class="glass-card">
-	          <div class="flex">
-	            <div>
-	              ${cover ? `<img src="${cover}"/>` : ""}
-	            </div>
-	            <div class="info">
-	              <div class="title">${pageName}</div>
-	              ${author ? `<div>Author: ${author}</div>` : ""}
-	              ${category ? `<div>Category: ${category}</div>` : ""}
-	              ${genre ? `<div>Genre: ${genre}</div>` : ""}
-	            </div>
+	          ${cover ? `<img src="${cover}"/>` : ""}
+	          <div class="info">
+	            <div class="title">${pageName}</div>
+	            ${author ? `<div class="field">Author: ${author}</div>` : ""}
+	            ${category ? `<div class="field">Category: ${category}</div>` : ""}
+	            ${genre ? `<div class="field">Genre: ${genre}</div>` : ""}
 	          </div>
 	        </div>
 	      `
@@ -189,23 +145,14 @@ icon:: 📝
 	    }
 	  
 	    _.markup = `
-	      <h2 style="margin-bottom:0.5rem;">${title}</h2>
+	      <h2 class="reading-list-title">${title}</h2>
 	      <table class="reading-table">${rows.join("")}</table>
 	    `
 	  _}``
-	  
-	  
 	  <div class="reading-list">
 	    <div class="reading-list-title">``title``</div>
 	    <div class="reading-grid">``{_ cards _}``</div>
 	  </div>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
 	  ```
 -
 	- ```jsx
