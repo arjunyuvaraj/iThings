@@ -3,7 +3,8 @@ subject:: Reading, Books, English
 banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 
 -
-	- {{renderer :template-view, glass-card, :page [[Where the Road Leads Us]] }}
+	- |{{renderer :template-view, glass-card, :page [[Where the Road Leads Us]] }} | {{renderer :template-view, glass-card, :page [[Lost in the Sun]] }} |
+	-
 	-
 	-
 	-
