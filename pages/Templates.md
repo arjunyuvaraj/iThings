@@ -132,30 +132,6 @@ icon:: 📝
 	      }
 	  _}``
 	  <div class="flex">
-	    <div class="glass-card">
-	      ``{_ if (cover) { _}``
-	        <a data-on-click="clickRef" data-ref="``reference``">
-	          <img src="``cover``"
-	            ``_ when(c.args['cover-width'], 'width="$1"') _``
-	            ``_ when(c.args['cover-height'], 'height="$1"') _``
-	          />
-	        </a>
-	      ``{ } _}``
-	  
-	      ``{_ if (title) { _}``
-	        <div class="title">
-	          <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
-	        </div>
-	      ``{ } _}``
-	  
-	      <div class="field"><strong class="label">Author:</strong> ``_ when(info1, '$1') _``</div>
-	      <div class="field"><strong class="label">Rating:</strong> ``_ when(info3, '$1') _``</div>
-	      <div class="field"><strong class="label">Category:</strong> ``_ when(info2, '$1') _``</div>
-	      <div class="field"><strong class="label">Recommend:</strong> ``_ when(info4, '$1') _``</div>
-	    </div>
-	  </div>
-	  
-	  <div class="flex">
 	          <div class="flex items-center">
 	              <a data-on-click="clickRef" data-ref="``reference``">
 	                    ``{_ if (cover) {   _}``
