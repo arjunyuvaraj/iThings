@@ -40,8 +40,8 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  | [[Lost in the Sun]] |Lisa Graff|7.4/10|3.5/5|
-	  | [[Where the Road Leads Us]] |Robin Reul|9.5/10|5/5|
-	  | [[This Is Our Story]] |Ashley Elston|8.5/10|4.5/5|
+	  |[[Where the Road Leads Us]]|Robin Reul|9.5/10|5/5|
+	  |[[This Is Our Story]]|Ashley Elston|8.5/10|4.5/5|
 	  |Kings of the Wyld|Nicholas Eames|5/10|2.5/5|
 	  |Patron Saints of Nothing|Randy Ribay|8.7/10|4.5/5|
 - ## July 2025
