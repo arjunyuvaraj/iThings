@@ -158,7 +158,8 @@ icon:: 📝
 	      let [cover] = markup ? dev.links(markup) : []
 	      if (!cover) cover = markup ? dev.asset(markup) : ""
 	  
-	      const props = top.logseq.api.get_page_properties(pageName) || {}
+	  	const page = top.logseq.api.get_page(pageName)
+	  	const props = page ? (page.properties || {}) : {}
 	      const author = props["author"] || ""
 	      const category = props["category"] || ""
 	      const genre = props["genre"] || ""
