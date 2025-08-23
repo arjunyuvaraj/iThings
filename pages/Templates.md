@@ -104,55 +104,51 @@ icon:: 📝
 	  }
 	  </style>
 	  ``{_
-	      var mode = c.args.block ? 'block' : 'page'
-	      var reference = mode === 'block' ? c.block.uuid : c.page.name_
-	      
-	      var title = when(c.args.title, dev.get(mode + c.args.title) || c.args.title)
-	      var info1 = when(c.args.info1, dev.get(mode + c.args.info1) || c.args.info1)
-	      var info2 = when(c.args.info2, dev.get(mode + c.args.info2) || c.args.info2)
-	      var info3 = when(c.args.info3, dev.get(mode + c.args.info3) || c.args.info3)
-	      var info4 = when(c.args.info4, dev.get(mode + c.args.info4) || c.args.info4)
-	      
-	      if (title) {
-	          if (Array.isArray(title))
-	              title = title[0]
-	          if (title.startsWith('[[') && title.endsWith(']]'))
-	              title = title.slice(2, -2)
-	      }
-	      if (info1) {
-	          info1 = Array.isArray(info1) ? info1 : [info1]
-	        info1 = dev.toHTML(info1.join('\n'))
-	      }
-	      if (info2) {
-	          info2 = Array.isArray(info2) ? info2 : [info2]
-	        info2 = dev.toHTML(info2.join('\n'))
-	      }
-	      if (info3) {
-	         info3 = Array.isArray(info3) ? info3 : [info3]
-	         info3 = dev.toHTML(info3.join('\n'))
-	      }
-	      if (info4) {
-	         info4 = Array.isArray(info4) ? info4 : [info4]
-	         info4 = dev.toHTML(info4.join('\n'))
+	    var pages = c.args.pages || []
+	    var cards = ''
+	  
+	    for (let p of pages) {
+	      let title = p.replace(/\[\[|\]\]/g, '')  // strip [[ ]]
+	      let reference = title
+	  
+	      // get data for this page
+	      let cover = ''
+	      let info1 = dev.get('page' + title + 'info1') || ''
+	      let info2 = dev.get('page' + title + 'info2') || ''
+	      let info3 = dev.get('page' + title + 'info3') || ''
+	      let info4 = dev.get('page' + title + 'info4') || ''
+	  
+	      // try to grab cover image from first block
+	      const tree = top.logseq.api.get_page_blocks_tree(title)
+	      if (tree?.[0]) {
+	        let markup = tree[0].content
+	        let links = dev.links(markup)
+	        if (links?.[0]) cover = links[0]
 	      }
 	  
-	      var markup
-	      if (!c.args.cover && mode === 'page') {
-	          const tree = top.logseq.api.get_page_blocks_tree(c.page.name)
-	          markup = tree[0].children[0].content
-	          if (!markup)
-	            markup = tree[1].content
-	      }
-	      else
-	          markup = when(c.args.cover, dev.get(mode + c.args.cover) || c.args.cover)
-	  
-	        var cover = ''
-	      if (markup) {
-	        [ cover ] = dev.links(markup)
-	        if (!cover)
-	                cover = dev.asset(markup)
-	      }
+	      // build one card
+	      cards += `
+	        <div class="glass-card">
+	          ${cover ? `<img src="${cover}"/>` : ''}
+	          <div class="info">
+	            <div class="title"><a data-on-click="clickRef" data-ref="${reference}">${title}</a></div>
+	            <div class="field"><span class="label">Author:</span> ${info1}</div>
+	            <div class="field"><span class="label">Category:</span> ${info2}</div>
+	            <div class="field"><span class="label">Rating:</span> ${info3}</div>
+	            <div class="field"><span class="label">Recommend:</span> ${info4}</div>
+	          </div>
+	        </div>
+	      `
+	    }
 	  _}``
+	  
+	  <div class="reading-list">
+	    <div class="reading-list-title">``c.args.title``</div>
+	    <div class="reading-grid">
+	      ``{_ cards _}``
+	    </div>
+	  </div>
+	  
 	  <div class="reading-list">
 	    <div class="reading-list-title">``c.args.title``</div>
 	    <div class="reading-grid">
