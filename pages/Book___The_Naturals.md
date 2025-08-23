@@ -1,4 +1,4 @@
-author:: [[Jennifer Lynn Barnes]]
+author:: [[Author/Jennifer Lynn Barnes]]
 name:: [[Book/The Naturals]]
 rating:: 9.5/10
 recommend:: 4/5

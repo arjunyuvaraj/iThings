@@ -1,4 +1,4 @@
-author:: [[Ernest Cline]]
+author:: [[Author/Ernest Cline]]
 name:: [[Book/Ready Player One]]
 rating:: 7.5/10
 recommend:: 4.5/5

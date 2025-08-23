@@ -1,4 +1,4 @@
-author:: [[Stephanie Garber]]
+author:: [[Author/Stephanie Garber]]
 name:: [[Book/Caraval]]
 rating:: 8.7/10
 recommend:: 4/5

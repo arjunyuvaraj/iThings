@@ -1,4 +1,4 @@
-author:: [[Ashley Elston]]
+author:: [[Author/Ashley Elston]]
 name:: [[This is Our Story]]
 genres:: [[📖/Fiction]], [[📖/Thriller]], [[📖/Mystery]], [[📖/Suspense]]
 rating:: 8.5/10

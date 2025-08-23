@@ -1,4 +1,4 @@
-author:: [[Robin Reul]]
+author:: [[Author/Robin Reul]]
 name:: [[Book/Where the Road Leads Us]]
 genres:: [[📖/Road Fiction]]
 rating:: 9.5/10

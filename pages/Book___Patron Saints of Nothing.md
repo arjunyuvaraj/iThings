@@ -1,4 +1,4 @@
-author:: [[Randy Ribay]]
+author:: [[Author/Randy Ribay]]
 name:: [[Book/Patron Saints of Nothing]]
 genres:: [[📖/Fiction]], [[📖/Mystery]]
 rating:: 8.7/10

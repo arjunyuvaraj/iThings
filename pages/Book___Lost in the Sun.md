@@ -1,4 +1,4 @@
-author:: [[Lisa Graff]]
+author:: [[Author/Lisa Graff]]
 name:: [[Book/Lost in the Sun]]
 genres:: [[📖/Fiction]]
 rating:: 7.4/10
