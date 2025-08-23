@@ -42,21 +42,23 @@ icon:: 📝
 	- ```jsx
 	  <style>
 	    #``c.identity.slot`` .glass-card {
-	      display: inline-flex;       /* inline so multiple cards line up */
-	      vertical-align: top;        /* align nicely in a row */
-	      width: 300px;               /* fixed card width */
+	      display: inline-flex;       /* cards line up in a row */
+	      vertical-align: top;
+	      width: 300px;
 	      border-radius: 0.5rem;
-	      background: linear-gradient(to right bottom,
-	        color-mix(in srgb, var(--ls-primary-background-color) 35%, white) 25%,
-	        color-mix(in srgb, var(--ls-primary-background-color) 10%, transparent)
+	      background: linear-gradient(
+	        to right bottom,
+	        rgba(255, 255, 255, 0.85), 25%,   /* slightly opaque white */
+	        rgba(245, 245, 245, 0.7) 100%     /* subtle gradient */
 	      );
 	      backdrop-filter: blur(80px);
 	      overflow: hidden;
-	      margin: 0.5rem;             /* spacing between cards */
+	      margin: 0.5rem;
+	      box-shadow: 0 4px 10px rgba(0,0,0,0.1);  /* subtle shadow for contrast */
 	    }
 	  
 	    #``c.identity.slot`` .glass-card img {
-	      width: 120px;               /* proportional cover */
+	      width: 120px;
 	      height: auto;
 	      object-fit: cover;
 	      border-radius: 0.5rem 0 0 0.5rem;
@@ -69,6 +71,7 @@ icon:: 📝
 	      font-size: 1rem;
 	      line-height: 1.3rem;
 	      font-weight: 400;
+	      color: #111;  /* darker text for readability */
 	      overflow: hidden;
 	      white-space: nowrap;
 	      text-overflow: ellipsis;
@@ -81,6 +84,7 @@ icon:: 📝
 	      white-space: nowrap;
 	      overflow: hidden;
 	      text-overflow: ellipsis;
+	      color: #111;  /* make title more readable */
 	    }
 	  </style>
 	  
