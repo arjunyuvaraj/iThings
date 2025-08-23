@@ -145,11 +145,13 @@ icon:: 📝
 	      <a data-on-click="clickRef" data-ref="``reference``">``title``</a>
 	    </div>
 	  
-	    <div class="field"><span class="label">Author:</span> ``_ when(info1, '$1') _``</div>
-	    <div class="field"><span class="label">Category:</span> ``_ when(info2, '$1') _``</div>
-	    <div class="field"><span class="label">Rating:</span> ``_ when(info3, '$1') _``<br>
-	                       <span class="label">Rec:</span> ``_ when(info4, '$1') _``</div>
+	    <div class="field">``_ when(info1, '$1') _``</div>
+	    <div class="field">``_ when(info2, '$1') _``</div>
+	    <div class="field">
+	      ``_ when(info3, '$1') _`` / ``_ when(info4, '$1') _``
+	    </div>
 	  </div>
+	  
 	  
 	  
 	  
