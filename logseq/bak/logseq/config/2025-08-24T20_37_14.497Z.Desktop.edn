@@ -265,7 +265,9 @@
  ;; input "{{poem red,blue}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {}
+ :macros {
+          
+          }
 
  ;; Configure the default expansion level for linked references.
  ;; For example, consider the following block hierarchy:
@@ -299,7 +301,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["science" "templates"]
+ :favorites ["arg-title" "english" "computer science" "science"]
 
  ;; Set flashcards interval.
  ;; Expected value:
