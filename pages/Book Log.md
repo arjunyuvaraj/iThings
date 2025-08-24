@@ -39,7 +39,6 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  | [[Book/A World Without Princes]] |[[Author/Soman Chainani]]|6.5/10|2.5/5|
 	  | [[Book/The Last Ever After]] | [[Author/Soman Chainani]] |6.5/10|2.5/5|
 - ## August 2025
-  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  | [[Book/Quests for Glory]] | [[Author/Soman Chainani]] |7/10|2.5/5|
@@ -50,6 +49,8 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  | [[Book/Ready Player One]] | [[Author/Ernest Cline]] |7.5/10|4.5/5|
 	  | [[Book/Ready Player Two]] | [[Author/Ernest Cline]] | 6.5/10| 3.5/5|
 	  | [[Book/Caraval]] | [[Author/Stephanie Garber]] |8.7/10|4/5|
+	  | [[Book/Quarantine]] | [[Author/Lex Thomas]] |6.5/10|2/5|
+	-
 	-
 	-
 	-
