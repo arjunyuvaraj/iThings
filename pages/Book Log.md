@@ -5,7 +5,6 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 - ## Favorite Books
 	- [[Book/The Book Thief]] by [[Author/Markus Zusak]]
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
 	- [[Book/A List of Cages]] by [[Author/Robin Roe]]
 	  logseq.order-list-type:: number
 	- [[Book/The Naturals: All In]] by [[Author/Jennifer Lynn Barnes]]
