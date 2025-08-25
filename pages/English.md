@@ -5,8 +5,6 @@ banner:: https://images.unsplash.com/photo-1529942259099-eaa7a732a44b?q=80&w=267
 title:: English
 
 - ## [[Book Log]]
--
--
 - # 📚Reading
 - # 📝 Writing
 -
