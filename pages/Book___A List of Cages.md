@@ -1,6 +1,6 @@
-author:: [[Author/Jennifer Lynn Barnes]]
-name:: [[Book/The Naturals: All In]]
-rating:: 9.7/10
+author:: [[Author/Robin Roe]] 
+name:: [[Book/A List of Cages]] 
+rating:: 9.8/10
 genres:: [[📖/Mystery]], [[📖/Fiction]], [[📖/Thriller]]
-recommend:: 4/5
-title:: Book/The Naturals: All In
+recommend:: 4.5/5
+title:: Book/A List of Cages
