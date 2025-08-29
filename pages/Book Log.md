@@ -3,7 +3,6 @@ subject:: Reading, Books, English
 banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 
 - ## Favorite Books
-  collapsed:: true
 	- [[Book/The Book Thief]] by [[Author/Markus Zusak]]
 	  logseq.order-list-type:: number
 	- [[Book/A List of Cages]] by [[Author/Robin Roe]]
@@ -16,16 +15,8 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  logseq.order-list-type:: number
 	- [[Book/Where the Road Leads Us]] by [[Author/Robin Reul]]
 	  logseq.order-list-type:: number
-- ## June 2025
-	- |**Title**|**Author**|**Rating**|**Recommend**|
-	  |--|--|--|--|
-	  | [[Book/Lost in the Sun]] | [[Author/Lisa Graff]] |7.4/10|3.5/5|
-	  |[[Book/Where the Road Leads Us]]| [[Author/Robin Reul]] |9.5/10|5/5|
-	  |[[Book/This Is Our Story]]| [[Author/Ashley Elston]] | 8.5/10|4.5/5|
-	  |[[Book/Kings of the Wyld]]| [[Author/Nicholas Eames]] |5/10|2.5/5|
-	  | [[Book/Patron Saints of Nothing]] | [[Author/Randy Ribay]] |8.7/10|4.5/5|
-	-
 - ## August 2025
+  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  | [[Book/Quests for Glory]] | [[Author/Soman Chainani]] |7/10|2.5/5|
@@ -52,6 +43,7 @@ banner:: https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?q=80&w=267
 	  | [[Book/A World Without Princes]] |[[Author/Soman Chainani]]|6.5/10|2.5/5|
 	  | [[Book/The Last Ever After]] | [[Author/Soman Chainani]] |6.5/10|2.5/5|
 - ## June 2025
+  collapsed:: true
 	- |**Title**|**Author**|**Rating**|**Recommend**|
 	  |--|--|--|--|
 	  | [[Book/Lost in the Sun]] | [[Author/Lisa Graff]] |7.4/10|3.5/5|
